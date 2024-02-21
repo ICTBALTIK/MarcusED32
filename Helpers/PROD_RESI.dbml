@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbsca" Class="PROD_RESIDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.23.0.43;Initial Catalog=dbsca;User ID=Macro1" SettingsObjectName="MARCUS.Properties.Settings" SettingsPropertyName="dbscaConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PROD_RESI" Member="PROD_RESIs">
+    <Type Name="PROD_RESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_AZIONE_RESO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_DESCRIZIONE_RESO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_DETTAGLIO_TIPO_LAVORAZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DETTAGLIO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NUMERO_CLIENTE" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DESCR_ALTRO" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="PAGINA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FATTURA_SCADENZA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="STATO_AZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATA_AZIONE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DATA_INSERIMENTO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="INVIATO_ENEL" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ID_USER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CANCELLATO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="CANCELLATO_DA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CANCELLATO_IL" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

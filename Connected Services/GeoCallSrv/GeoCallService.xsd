@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GeoCallService.Models" />
+  <xs:element name="ScodaAttivita">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="attivita" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScodaAttivitaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ScodaAttivitaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScodaAttivitaWithTask">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="attivita" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScodaAttivitaWithTaskResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GeoCallService.Models" minOccurs="0" name="ScodaAttivitaWithTaskResult" nillable="true" type="q1:Task" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminaAttivita">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="attivita" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerminaAttivitaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TerminaAttivitaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckCredentials">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckCredentialsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckCredentialsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextTask">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextTaskResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GeoCallService.Models" minOccurs="0" name="NextTaskResult" nillable="true" type="q2:Task" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextTaskTeam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="domain" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="team" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextTaskTeamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GeoCallService.Models" minOccurs="0" name="NextTaskTeamResult" nillable="true" type="q3:Task" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

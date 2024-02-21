@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GeoCallService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GeoCallService.Models" />
+      <xsd:import schemaLocation="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGeoCallService_ScodaAttivita_InputMessage">
+    <wsdl:part name="parameters" element="tns:ScodaAttivita" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_ScodaAttivita_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ScodaAttivitaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_ScodaAttivitaWithTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:ScodaAttivitaWithTask" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_ScodaAttivitaWithTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ScodaAttivitaWithTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_TerminaAttivita_InputMessage">
+    <wsdl:part name="parameters" element="tns:TerminaAttivita" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_TerminaAttivita_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TerminaAttivitaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_CheckCredentials_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckCredentials" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_CheckCredentials_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckCredentialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_NextTask_InputMessage">
+    <wsdl:part name="parameters" element="tns:NextTask" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_NextTask_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NextTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_NextTaskTeam_InputMessage">
+    <wsdl:part name="parameters" element="tns:NextTaskTeam" />
+  </wsdl:message>
+  <wsdl:message name="IGeoCallService_NextTaskTeam_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NextTaskTeamResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGeoCallService">
+    <wsdl:operation name="ScodaAttivita">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/ScodaAttivita" message="tns:IGeoCallService_ScodaAttivita_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/ScodaAttivitaResponse" message="tns:IGeoCallService_ScodaAttivita_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ScodaAttivitaWithTask">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/ScodaAttivitaWithTask" message="tns:IGeoCallService_ScodaAttivitaWithTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/ScodaAttivitaWithTaskResponse" message="tns:IGeoCallService_ScodaAttivitaWithTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminaAttivita">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/TerminaAttivita" message="tns:IGeoCallService_TerminaAttivita_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/TerminaAttivitaResponse" message="tns:IGeoCallService_TerminaAttivita_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckCredentials">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/CheckCredentials" message="tns:IGeoCallService_CheckCredentials_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/CheckCredentialsResponse" message="tns:IGeoCallService_CheckCredentials_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NextTask">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/NextTask" message="tns:IGeoCallService_NextTask_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/NextTaskResponse" message="tns:IGeoCallService_NextTask_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NextTaskTeam">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGeoCallService/NextTaskTeam" message="tns:IGeoCallService_NextTaskTeam_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGeoCallService/NextTaskTeamResponse" message="tns:IGeoCallService_NextTaskTeam_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGeoCallService" type="tns:IGeoCallService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ScodaAttivita">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/ScodaAttivita" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ScodaAttivitaWithTask">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/ScodaAttivitaWithTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminaAttivita">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/TerminaAttivita" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCredentials">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/CheckCredentials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NextTask">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/NextTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NextTaskTeam">
+      <soap:operation soapAction="http://tempuri.org/IGeoCallService/NextTaskTeam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GeoCallService">
+    <wsdl:port name="BasicHttpBinding_IGeoCallService" binding="tns:BasicHttpBinding_IGeoCallService">
+      <soap:address location="http://172.23.0.100/GeoCallService/GeoCallService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

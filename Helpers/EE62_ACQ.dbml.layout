@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EE62_ACQ">
+  <DataContextMoniker Name="/EE62_ACQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9d63cb0a-1100-4bb1-928b-6617aca7da5e" absoluteBounds="5.375, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/EE62_ACQDataContext/ACQ_ENEL_EE62" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db6a2390-27d8-4535-9b5c-bd7090e38e7a" absoluteBounds="5.39, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

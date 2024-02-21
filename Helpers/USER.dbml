@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbsca" Class="USERDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.23.0.43;Initial Catalog=dbsca;User ID=Macro1" SettingsObjectName="MARCUS.Properties.Settings" SettingsPropertyName="dbscaConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[USER]" Member="USERs">
+    <Type Name="USER">
+      <Column Name="ID_USER" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="USER_NAME" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="COGNOME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PASSWORD_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PASSWORD_SCADE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATION_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADDR1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADDR2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CITTA" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="PROVINCIA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CAP" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TELEFONO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CELL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIPO_AUTENTICAZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MATRICOLA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="INTERFACCIA_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MATR_ENEL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BADGE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="FLAG_INTERINALE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ID_SEDE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_TURNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_AREA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATA_INIZIO_VALIDITA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DATA_FINE_VALIDITA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FLAG_VALIDITA" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="PASSWORD_PROVVISORIA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SCADENZA_PASSWORD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ID_REPARTO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_GRUPPO_COLLEGAMENTI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_CLIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODICE_FISCALE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DATA_ABILITAZIONE_BADGE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DATA_DISABILITAZIONE_BADGE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ID_SKILL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_REPARTO_PRODUZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_DETTAGLIO_REPARTO_PRODUZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="USER_SCANN" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="ID_POSTAZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMAIL_ALTERNATIVA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MATRICOLA_MICRO_WIND" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IS_SCADENZA_PASSWORD" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

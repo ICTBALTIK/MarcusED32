@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4cdfcc6b-a8ec-4810-b55b-70f04a527f59" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://172.23.0.100/GeoCallService/GeoCallService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GeoCallService.wsdl" MetadataType="Wsdl" ID="1b8ccf49-5ca8-4ae4-9ec6-6ab2d1dbf6fb" SourceId="1" SourceUrl="http://172.23.0.100/GeoCallService/GeoCallService.svc?wsdl" />
+    <MetadataFile FileName="GeoCallService.xsd" MetadataType="Schema" ID="865513ac-fc89-433b-b28c-c31c9cd3da94" SourceId="1" SourceUrl="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GeoCallService1.xsd" MetadataType="Schema" ID="1c6b6ec1-4c11-446a-b476-939cd8bba4f8" SourceId="1" SourceUrl="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GeoCallService2.xsd" MetadataType="Schema" ID="48e83e02-9b08-46b7-8427-6aea66c50c86" SourceId="1" SourceUrl="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd2" />
+    <MetadataFile FileName="GeoCallService3.xsd" MetadataType="Schema" ID="b02284c7-072b-4e3c-853a-e67675f51c1a" SourceId="1" SourceUrl="http://172.23.0.100/GeoCallService/GeoCallService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

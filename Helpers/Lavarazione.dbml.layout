@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Lavarazione">
+  <DataContextMoniker Name="/LavarazioneDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a46414d2-653b-4c0e-b2c6-3844ff417ee2" absoluteBounds="4.875, 0.875, 2, 7.1553369140625">
+      <DataClassMoniker Name="/LavarazioneDataContext/LAVORAZIONI_AGENTE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4445424-4af2-486b-9781-abe654692291" absoluteBounds="4.89, 1.335, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

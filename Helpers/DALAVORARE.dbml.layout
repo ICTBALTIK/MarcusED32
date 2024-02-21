@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DALAVORARE">
+  <DataContextMoniker Name="/DALAVORAREDataContext" />
+  <nestedChildShapes>
+    <classShape Id="75c4a750-cf79-45b3-a002-859ee1f552c9" absoluteBounds="5.375, 2.25, 2, 4.2708154296875">
+      <DataClassMoniker Name="/DALAVORAREDataContext/PROD_VOLUMI_DA_LAVORARE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b9d431a-9510-40a6-9db5-6428174d7bd5" absoluteBounds="5.39, 2.71, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

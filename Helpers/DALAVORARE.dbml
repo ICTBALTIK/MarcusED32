@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbsca" Class="DALAVORAREDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.23.0.43;Initial Catalog=dbsca;Persist Security Info=True;User ID=macro1" SettingsObjectName="MARCUS.Properties.Settings" SettingsPropertyName="dbscaConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PROD_VOLUMI_DA_LAVORARE" Member="PROD_VOLUMI_DA_LAVORAREs">
+    <Type Name="PROD_VOLUMI_DA_LAVORARE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_DETTAGLIO_TIPO_LAVORAZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_OPERATORE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_OPERATORE_IMPORT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATA_IMPORT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DETTAGLIO" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DATA_BLOCCO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="N_STATO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATA_RIC_ACQ_DOC" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="NOTE" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="N_CONTENITORE" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="PRIORITA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_DETT_TIPO_LAV_PROVENIENZA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_LAVORAZIONE_BOL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NUMERO_CLIENTE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DATA_RIC_ACQ_DOC_DTIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ID_STATO_SOSPENSIONE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_PROFILO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

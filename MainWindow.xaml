@@ -1,0 +1,254 @@
+﻿<Controls:MetroWindow x:Class="MARCUS.MainWindow"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MARCUS for WIN10" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="m.ico" Topmost="True">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button x:Name="BtnAttivita" Content="{Binding Bad.Riferimento, Mode=OneWay}" Background="#FF252525" Foreground="Wheat" Visibility="Visible"/>
+            <Button x:Name="BtnDuplicati" Content="duplicati" Background="#FF252525" Foreground="Wheat" Click="BtnDuplicati_Click" Visibility="Collapsed"/>
+            <Button x:Name="Gol" Content="log" Background="#FF252525" Foreground="Wheat" Click="Gol_Click"/>
+            <Button x:Name="BtnPakalento" Content="pakalento" Background="#FF252525" Foreground="Wheat" Click="BtnPakalento_Click"/>
+            <Button x:Name="BtnMenuAbilita" Content="abilità:" Background="#FF252525" Foreground="Wheat"/>
+            <Button x:Name="BtnMenu" Content="" Background="#FF252525" Foreground="#FFFF0000"/>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="115"/>
+            <ColumnDefinition Width="295"/>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="307"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0" Grid.RowSpan="2">
+            <StackPanel Orientation="Vertical">
+                <GroupBox Foreground="Wheat" Header="AGENTE/GRAVITY" BorderThickness="1">
+                    <StackPanel>
+                        <TextBox x:Name="loginAGENTE" Text="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="sfaGroupb" Foreground="Wheat" Header="SFA" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginSFA" CharacterCasing="Upper" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passSFA" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="geocallGroupb" Foreground="Wheat" Header="GEOCALL" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginGEOCALL" CharacterCasing="Upper" BorderThickness="0"/>
+                        <PasswordBox x:Name="passGEOCALL" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="sapGroupb" Foreground="Wheat" Header="SAP" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginSAP" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passSAP" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="nextGroupb" Foreground="Wheat" Header="NEXT" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginNEXT" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passNEXT" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="fourGroupb" Foreground="Wheat" Header="FOUR" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginFOUR" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passFOUR" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="r2dGroupb" Foreground="Wheat" Header="R2D" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginR2D" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passR2D" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox x:Name="siiGroupb" Foreground="Wheat" Header="SII" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginSII" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passSII" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            <Label x:Name="VersionLabel" VerticalAlignment="Bottom" Grid.RowSpan="3" Opacity="0.3" Content="" />
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0">
+            <GroupBox Header="CODA">
+                <ComboBox Grid.Column="0" x:Name="CmbLavorazioni" BorderThickness="0" MaxDropDownHeight="800" Text="Select Coda" DropDownClosed="CmbLavorazioni_DropDownClosed" DropDownOpened="CmbLavorazioni_DropDownOpened">
+                    <ComboBoxItem IsEnabled="False" Visibility="Collapsed">EE62 - INSERIMENTO DIMPAG IN SAP</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">ED32 - SIFITES</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">CONTROLIER</ComboBoxItem>
+                    <Separator Background="Wheat" Height="0.1" Margin="0"/>
+                    <ComboBoxItem IsEnabled="True">EE145 - INSERIMENTO FASE 1</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE145 - INSERIMENTO FASE 2</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE145 - NON DI COMPETENZA</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE145 - MULTI MODULO</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE112 - DPC</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="False" Visibility="Collapsed">EE112 - LIMBO ENEL-D</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="False" Visibility="Collapsed">EE112 - LIMBO DT TERZI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE176 - ALTRI DOC</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE176 - CONTRATTI 1</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">EE176 - CONTRATTI 2</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" ToolTip="Only after 08:00 IT">EE366 - GIUSEPPE</ComboBoxItem>
+                    <Separator Background="Wheat" Height="0.1" Margin="0"/>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE145 - DATI CATASTALI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE253 - CERTIFICAZIONI DEL CLT</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE253 - CONTRATTI GESTONALI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE253 - 147</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE253 - CONTRATTI (NEW)</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE231 - PRESCRIZIONE</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">SCODAMENTO - EE62 - SMART LETTONIA</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Loop MI000AH, AF71061, AF71062, AF71063. 150 each">SCODAMENTO - EE62 - LOOP MATRICOLE</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Scoda [ATTIVITÀ] from excel file without registering in agente">SCODAMENTO - EE253 - FROM FILE</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Scoda [ATTIVITÀ] from excel file without registering in agente">SCODAMENTO - EE62 - FROM FILE</ComboBoxItem>
+                    <Separator Background="Wheat" Height="0.1" Margin="0"/>
+                    <ComboBoxItem IsEnabled="True">PDF - ED15 - INS. DATI CATASTALI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - ED15 - INS. DATI CATASTALI SENZA DATI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE145 - RECUPERO DATI</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE62 - DimPag in SAP</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE253 - 147</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE253 - Cert. del clt</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE253 - Contr. Gest.</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE253 - DMS-Contratti</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">PDF - EE231 - PRESCRIZIONE</ComboBoxItem>
+                    <Separator Background="Wheat" Height="0.1" Margin="0"/>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Get BO sospesi from EE253">BO SOSPESI - EE253</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Get top 5 ATTIVITÀ from geocall (choose TIPO)">SOSPENDI - GEOCALL</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Upload [ATTIVITÀ], get [RIFERIMENTO][SF], export to excel">SFA CHECKER SF</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True" Foreground="Wheat" ToolTip="Upload [ATTIVITÀ], get [ATTIVITÀ][TIPO ATTIVITÀ][STATO SFA][NUMERO DOCUMENTO][OP][STATO AGENTE][DESC_ALTRO], export to excel">SFA CHECKER AGENTE</ComboBoxItem>
+                </ComboBox>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="0">
+            <GroupBox Header="SCOD MIN/MAX" x:Name="scodamentoCombo" BorderThickness="1" IsEnabled="False" Visibility="Visible">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txtMin" Grid.Column="0" Text="50" TextAlignment="Center" BorderThickness="0"/>
+                    <TextBox x:Name="txtMax" Grid.Column="1" Text="400" TextAlignment="Center" BorderThickness="0"/>
+                    <CheckBox x:Name="cModificaPodTrip" Grid.Column="2" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,4,-1,4" ToolTip="If checked, will modifica/pod/trip/salva every document"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="TIPO" x:Name="sospendiCombo" BorderThickness="1" Visibility="Collapsed">
+                <Grid>
+                    <ComboBox Grid.Column="0" x:Name="CmbTipo" BorderThickness="0" MaxDropDownHeight="200">
+                        <ComboBoxItem IsSelected="True" IsEnabled="True">DMS - 147</ComboBoxItem>
+                        <ComboBoxItem IsEnabled="True">DMS - Certificazioni del Clt</ComboBoxItem>
+                        <ComboBoxItem IsEnabled="True">DMS - Contratti Gestionali</ComboBoxItem>
+                        <ComboBoxItem IsEnabled="True">DMS - Dati Catastali</ComboBoxItem>
+                        <ComboBoxItem IsEnabled="True">DMS - Dimostrati pagamenti</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>
+            <!--<GroupBox Header="" x:Name="sfCombo" BorderThickness="1" Visibility="Visible">
+                <Grid>
+                    <TextBox Grid.Column="0" x:Name="Empti" Text="" BorderThickness="0" IsEnabled="False"/>
+                </Grid>
+            </GroupBox>-->
+            <!--<GroupBox Header="GET SF" x:Name="sfCombo" BorderThickness="1" Visibility="Collapsed">
+                <Grid>
+                    <ComboBox Grid.Column="0" x:Name="CmbSF" BorderThickness="0" MaxDropDownHeight="200">
+                        <ComboBoxItem IsSelected="True" IsEnabled="True">NO</ComboBoxItem>
+                        <ComboBoxItem IsEnabled="True">SI</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>-->
+        </Grid>
+        <Grid Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1">
+            <RichTextBox Name="txtLog" IsReadOnly="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Block.LineHeight="6" BorderThickness="0">
+                <RichTextBox.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" >
+                        <GradientStop Color="#CC647687" Offset="0"/>
+                        <GradientStop Color="#FF272727" Offset="1"/>
+                    </LinearGradientBrush>
+                </RichTextBox.Background>
+                <RichTextBox.Document>
+                    <FlowDocument>
+                        <FlowDocument.Blocks>
+                            <Paragraph Name="LogP" FontSize="12"/>
+                        </FlowDocument.Blocks>
+                    </FlowDocument>
+                </RichTextBox.Document>
+            </RichTextBox>
+        </Grid>
+        <Grid Grid.Column="3" Grid.RowSpan="2">
+            <StackPanel Orientation="Vertical">
+                <GroupBox Header="" x:Name="GroupBoxMain">
+                    <StackPanel x:Name="CredentialsStratStop">
+                        <Button x:Name="BtnCredentials" Content="CREDENTIALS" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BtnCredentials_Click"/>
+                        <Button x:Name="BtnUpload" Content="UPLOAD" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Visibility="Collapsed" IsEnabled="False"/>
+                        <Grid x:Name="TakeMatricola" Visibility="Collapsed">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" x:Name="TakeMatricola62" Content="TAKE 62" Foreground="Wheat" FontWeight="Bold" BorderBrush="{x:Null}" Click="TakeMatricola62_Click"/>
+                            <Button Grid.Column="1" x:Name="TakeMatricola145253" Content="TAKE 145" Foreground="Wheat" FontWeight="Bold" BorderBrush="{x:Null}" Click="TakeMatricola145253_Click"/>
+                        </Grid>
+                        <Grid x:Name="TakeMatricolaEE176" Visibility="Collapsed">
+                            <Button Grid.Column="1" x:Name="TakeMatricola176" Content="TAKE 176" Foreground="Wheat" FontWeight="Bold" BorderBrush="{x:Null}" Click="TakeMatricola176_Click"/>
+                        </Grid>
+                        <Button x:Name="ReleaseMatricola" Visibility="Collapsed" Content="RELEASE" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="ReleaseMatricola_Click"/>
+                        <Button x:Name="BtnStart" Content="STRAT" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BtnStart_Click"/>
+                        <Button x:Name="BtnStop" Content="STOP, LOGOUT &amp; RELEASE" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BtnStop_Click"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="" x:Name="GroupBoxSospeso" Visibility="Collapsed">
+                    <StackPanel x:Name="SospesoEE253">
+                        <Button x:Name="BDownload" Content="DOWNLOAD .XLSX" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BDownload_Click"/>
+                        <Button x:Name="BElimina" Content="ELIMINA" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BElimina_Click" IsEnabled="False"/>
+                        <Button x:Name="BCarica" Content="CARICA" Height="55" FontWeight="Bold" Foreground="Wheat" BorderBrush="{x:Null}" Click="BCarica_Click" IsEnabled="False"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="BtnFatality" Grid.Column="0" Content="SOSPESO" Height="55" FontWeight="Bold" Foreground="#FFC80000" BorderBrush="{x:Null}" Click="BtnFatality_Click"/>
+                        <Button x:Name="BtnBrutality" Grid.Column="1" Content="SCARTO" Height="55" FontWeight="Bold" Foreground="#FFC80000" BorderBrush="{x:Null}" Click="BtnBrutality_Click"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox>
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="FATTO" Height="25" HorizontalAlignment="Center"/>
+                            <Label Grid.Column="1" x:Name="LblFatto" Content="{Binding Bad.Fatto, Mode=OneWay}" Height="25" HorizontalAlignment="Center" Foreground="Wheat"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="SCARTO" Height="25" HorizontalAlignment="Center"/>
+                            <Label Grid.Column="1" x:Name="LblScarto" Content="{Binding Bad.Scarto, Mode=OneWay}" Height="25" HorizontalAlignment="Center" Foreground="Wheat"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="SOSPESO" Height="25" HorizontalAlignment="Center" />
+                            <Label Grid.Column="1" x:Name="LblSospeso" Content="{Binding Bad.Sospeso, Mode=OneWay}" Height="25" HorizontalAlignment="Center" Foreground="Wheat"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

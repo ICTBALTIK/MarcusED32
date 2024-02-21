@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Kredenziali">
+  <DataContextMoniker Name="/KredenzialiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8769f1f9-0faf-47dc-96a2-c7b5882bef24" absoluteBounds="5.375, 2, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/KredenzialiDataContext/tbl_matricole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb4b5e7c-b634-47ab-92d7-4f1f4b93ce3c" absoluteBounds="5.39, 2.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="baltikit_db" Class="FATJIKDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BALTIKPDC;Initial Catalog=baltikit_db;Integrated Security=True" SettingsObjectName="MARCUS.Properties.Settings" SettingsPropertyName="baltikit_dbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MARCUSP" Member="MARCUSPs">
+    <Type Name="MARCUSP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PROD_VOLUMI_DA_LAVORARE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_DETTAGLIO_TIPO_LAVORAZIONE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

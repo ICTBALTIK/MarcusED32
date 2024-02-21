@@ -1,0 +1,1297 @@
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MainWindow.baml
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MainWindow.g.cs
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\App.g.cs
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\chromedriver.exe
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AutoItX3.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MARCUS.exe.config
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\ControlzEx.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\itextsharp.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\log4net.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MahApps.Metro.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SapABAP.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SapGuiHelper.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SfaHelperLibrary.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SFALibrary.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\WebDriver.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\WebDriver.Support.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\HtmlUnit.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SapABAP.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SapABAP.dll.config
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SapGuiHelper.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SFALibrary.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SfaHelperLibrary.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\SfaHelperLibrary.dll.config
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\ControlzEx.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\itextsharp.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\log4net.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\MahApps.Metro.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\WebDriver.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\WebDriver.Support.xml
+C:\Users\W10 User\Desktop\MARKUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\App.baml
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.g.resources
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\MARKUS\obj\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\log4net.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SapABAP.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SapGuiHelper.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SfaHelperLibrary.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SapABAP.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SapABAP.dll.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SapGuiHelper.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SfaHelperLibrary.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\SfaHelperLibrary.dll.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\log4net.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\App.g.cs
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\App.baml
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\log4net.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\App.config
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\W10 User\Desktop\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\W10 User\Desktop\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\App.g.cs
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\App.config
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.config
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SapABAP.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SapGuiHelper.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SapABAP.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SapABAP.dll.config
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\App.baml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\Error.baml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\SapGuiHelper.pdb
+C:\Users\b4347\Desktop\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\App.config
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\log4net.config
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\log4net.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\log4net.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\App.g.cs
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\App.baml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\Error.baml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\App.config
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\log4net.config
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\log4net.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\log4net.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\App.g.cs
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\App.baml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\Error.baml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\VS\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\App.config
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.config
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\log4net.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\App.g.cs
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\App.baml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\Error.baml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\W10 User\Desktop\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+E:\VERI SMART\MARCUS\bin\Debug\App.config
+E:\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+E:\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+E:\VERI SMART\MARCUS\bin\Debug\log4net.config
+E:\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+E:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+E:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+E:\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+E:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+E:\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+E:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+E:\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+E:\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+E:\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+E:\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+E:\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+E:\VERI SMART\MARCUS\bin\Debug\log4net.dll
+E:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+E:\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+E:\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+E:\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+E:\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+E:\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+E:\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+E:\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+E:\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+E:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+E:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+E:\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+E:\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+E:\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+E:\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+E:\VERI SMART\MARCUS\bin\Debug\log4net.xml
+E:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+E:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+E:\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+E:\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+E:\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+E:\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+E:\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+E:\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+E:\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+E:\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+E:\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+E:\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+E:\VERI SMART\MARCUS\obj\Debug\App.g.cs
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+E:\VERI SMART\MARCUS\obj\Debug\App.baml
+E:\VERI SMART\MARCUS\obj\Debug\Error.baml
+E:\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+E:\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\App.config
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\log4net.config
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\log4net.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\log4net.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\App.g.cs
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\App.baml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\Error.baml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\b4347\Desktop\sht\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+D:\VERI SMART\MARCUS\bin\Debug\App.config
+D:\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+D:\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+D:\VERI SMART\MARCUS\bin\Debug\log4net.config
+D:\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+D:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+D:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+D:\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+D:\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+D:\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+D:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+D:\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+D:\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+D:\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+D:\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+D:\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+D:\VERI SMART\MARCUS\bin\Debug\log4net.dll
+D:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+D:\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+D:\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+D:\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+D:\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+D:\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+D:\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+D:\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+D:\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+D:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+D:\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+D:\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+D:\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+D:\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+D:\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+D:\VERI SMART\MARCUS\bin\Debug\log4net.xml
+D:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+D:\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+D:\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+D:\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+D:\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csprojAssemblyReference.cache
+D:\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+D:\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+D:\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+D:\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+D:\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+D:\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+D:\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+D:\VERI SMART\MARCUS\obj\Debug\App.g.cs
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+D:\VERI SMART\MARCUS\obj\Debug\App.baml
+D:\VERI SMART\MARCUS\obj\Debug\Error.baml
+D:\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+D:\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Security.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.SqlHelper.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Utility.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Model.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\bin\Debug\Smart.Network.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\App.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\App.baml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\Error.baml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\App.config
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\log4net.config
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\log4net.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Model.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Network.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Security.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.SqlHelper.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Smart.Utility.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\log4net.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\App.config
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\log4net.config
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MARCUS.application
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\log4net.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Otp.NET.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Model.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Network.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Security.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.SqlHelper.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Smart.Utility.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\log4net.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Interop.SapROTWr.dll
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Error.g.cs
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\App.g.cs
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\App.baml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Error.baml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\ErrorOkCancel.baml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.application
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\b4347\source\repos\VERI SMART\MARCUS\obj\Debug\Interop.AutoItX3Lib.dll
+\\baltikpdc\FCS\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+\\172.16.202.100\fcs\C#\VERI SMART\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\App.config
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3_x64.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.config
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\chromedriver.exe
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.config
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.manifest
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.application
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.pdb
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\HtmlUnit.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\NHtmlUnit.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Otp.NET.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Model.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Network.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Security.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.SqlHelper.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Utility.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.pdb
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.pdb
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.pdb
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.baml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\Error.g.cs
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.g.cs
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\App.g.cs
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_Content.g.cs
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\App.baml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\Error.baml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.baml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.g.resources
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe.manifest
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.application
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe
+\\baltikpdc\FCS\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\App.config
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3_x64.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.config
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\chromedriver.exe
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.config
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.manifest
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.application
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\HtmlUnit.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\NHtmlUnit.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Otp.NET.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Model.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Network.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Security.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.SqlHelper.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Smart.Utility.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\log4net.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.pdb
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\Interop.SapROTWr.dll
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.baml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\Error.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\App.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_Content.g.cs
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\App.baml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\Error.baml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.baml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.g.resources
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe.manifest
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.application
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe
+\\172.16.202.100\fcs\C#\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\App.config
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3_x64.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\log4net.config
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\chromedriver.exe
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.config
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe.manifest
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.application
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.exe
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MARCUS.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\HtmlUnit.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\log4net.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\NHtmlUnit.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Otp.NET.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Client.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Gravity.Model.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Model.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Network.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Security.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.SqlHelper.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Smart.Utility.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AgenteHelperLibrary.dll.config
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\SFALibrary.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\AutoItX3.Assembly.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\ControlzEx.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\itextsharp.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\log4net.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.pdb
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\MahApps.Metro.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\bin\Debug\WebDriver.Support.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.AssemblyReference.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.SuggestedBindingRedirects.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Interop.AutoItX3Lib.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Interop.SAPFEWSELib.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Interop.SapROTWr.dll
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.ResolveComReference.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.baml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Error.g.cs
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.g.cs
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MainWindow.g.cs
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\App.g.cs
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_Content.g.cs
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS_MarkupCompile.lref
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\App.baml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\Error.baml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\ErrorOkCancel.baml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.g.resources
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.Properties.Resources.resources
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.GenerateResource.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CoreCompileInputs.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.Fody.CopyLocal.cache
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.TrustInfo.xml
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe.manifest
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.application
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.csproj.CopyComplete
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.exe
+C:\Users\b4969\Desktop\VERI SMART win 10\MARCUS\obj\Debug\MARCUS.pdb

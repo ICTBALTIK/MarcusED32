@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FATJIK">
+  <DataContextMoniker Name="/FATJIKDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9dc63c43-20d0-4913-ae22-c04579f2233a" absoluteBounds="5, 2.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/FATJIKDataContext/MARCUSP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c75cb1f-f581-4200-8a83-66841bac3f88" absoluteBounds="5.015, 2.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
