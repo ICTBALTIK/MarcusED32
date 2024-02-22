@@ -13,7 +13,7 @@ namespace Controlli_ee145
     {
 
 
-        private const string SQL_GET_MODULI_LOCAL = "SELECT TOP (1) [RIFERIMENTO] ,[NUMERO_CLIENTE] ,[DATA] FROM [MODULI_CATASTALI].[dbo].[PROD_ARCHIVIO_CATASTALI_ML] order by DATA_INSERIMENTO DESC";
+        private const string SQL_GET_MODULI_LOCAL = "SELECT TOP (1) [RIFERIMENTO] ,[NUMERO_CLIENTE] ,[DATA], [DATA_INSERIMENTO] FROM [MODULI_CATASTALI].[dbo].[PROD_ARCHIVIO_CATASTALI_ML] order by DATA_INSERIMENTO DESC";
 
         string riffermineto = "";
 
@@ -27,6 +27,7 @@ namespace Controlli_ee145
                     ArchivioCatastali arch = new ArchivioCatastali();
                     if (!rdr.IsDBNull(0)) arch.RIFERIMENTO = rdr.GetString(0);
                     if (!rdr.IsDBNull(1)) arch.NUMERO_CLIENTE = rdr.GetString(1);
+                    if (!rdr.IsDBNull(2)) arch.DATA = rdr.GetDateTime(2);
                     if (arch.RIFERIMENTO.Contains("-"))
                     {
                         arch.RIFERIMENTO = arch.RIFERIMENTO.Substring(0, arch.RIFERIMENTO.Length - 2);
