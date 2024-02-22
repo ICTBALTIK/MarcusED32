@@ -144,7 +144,7 @@ namespace MARCUS.Controll
                             tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':') and text()='SICURA GAS RVC']"));
                             IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)Keanu.Driver;
                             jsExecutor.ExecuteScript("arguments[0].click();", tarrifa);
-                            if (Keanu.Driver.PageSource.Contains("Commodity"))
+                            if (TestAutomationManager.DocumentiDaValidareChecked == false && Keanu.Driver.PageSource.Contains("Commodity"))
                             {
                                 if (!CommodityNextSteps())
                                 {
@@ -172,6 +172,10 @@ namespace MARCUS.Controll
             return true;
         }
 
+        public class TestAutomationManager
+        {
+            public static bool DocumentiDaValidareChecked = false;
+        }
 
         public bool CommodityNextSteps()
         {
@@ -196,23 +200,51 @@ namespace MARCUS.Controll
 
                     if (Keanu.Driver.PageSource.Contains("SWARES"))
                     {
-                        if (Keanu.Driver.PageSource.Contains("Documenti Da Validare (0)"))
+                        try
                         {
-                            
+                            IList<IWebElement> correlatoElements = Keanu.Driver.FindElements(By.XPath("//a[@id='relatedListsTab__item' and @data-tab-value='relatedListsTab']"));
+
+                            if (correlatoElements.Count > 0)
+                            {
+                                int index = correlatoElements.Count - 1;
+                                correlatoElements[index].Click();
+                            }
+                        }
+                        catch
+                        {}
+                        if (Keanu.Driver.FindElements(By.XPath("//a[contains(@class, 'baseCard__header-title-container')]//span[contains(text(), 'Documenti Da Validare')]//following-sibling::span[contains(text(), '(0)')]")).Any())
+                        {
+                            bool isChecked = TestAutomationManager.DocumentiDaValidareChecked;
+                            TestAutomationManager.DocumentiDaValidareChecked = true;
+                            CaricaCampiSearch();
+                            FindLaTarifa();
+                            if (Keanu.Driver.PageSource.Contains("Correlato"))
+                            {
+                                try {
+                                    IList<IWebElement> correlatoElements = Keanu.Driver.FindElements(By.XPath("//a[@id='relatedListsTab__item' and @data-tab-value='relatedListsTab']"));
+
+                                    if (correlatoElements.Count > 0)
+                                    {
+                                        int index = correlatoElements.Count - 1;
+                                        correlatoElements[index].Click();
+                                    }
+
+                                    if (Keanu.Driver.FindElements(By.XPath("//a[contains(@class, 'baseCard__header-title-container')]//span[contains(text(), 'Dati Catastali')]//following-sibling::span[contains(text(), '(0)')]")).Any())
+                                    {
+                                        int KO = 1;
+                                    }
+                                }
+                                catch { }
+                            }
                         }
                         else
                         {
                             DocumentiValidare();
                         }
-
                     }
                     log.Debug("Not found on didnr enter next page.");
                     return false;
                 }
-
-
-
-
             }
             return true;
         }
@@ -223,13 +255,6 @@ namespace MARCUS.Controll
             {
                 try
                 {
-                    IList<IWebElement> correlatoElements = Keanu.Driver.FindElements(By.XPath("//a[@id='relatedListsTab__item' and @data-tab-value='relatedListsTab']"));
-
-                    if (correlatoElements.Count > 0)
-                    {
-                        int index = correlatoElements.Count - 1;
-                        correlatoElements[index].Click();
-                    }
 
                     By docValidaLocator = By.XPath("//span[@class='slds-truncate slds-m-right--xx-small' and @title='Documenti Da Validare']");
                     if (IsElementVisible(docValidaLocator))
