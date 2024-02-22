@@ -43,6 +43,8 @@ namespace MARCUS.Controll
         public string huinja = "";
         public string statoop = "";
         public int fatto = 26567;
+        public DateTime datefromValidare;
+        public DateTime DATAs;
         string rifferimento = "";
         string SF = "";
         string RECORD = "";
@@ -59,6 +61,7 @@ namespace MARCUS.Controll
             list = db.GetModuliRifferimetno();
             SF = list[0].RIFERIMENTO.ToString();
             CF = list[0].NUMERO_CLIENTE.ToString();
+            DATAs = list[0].DATA;
             list = db.GetebanutijAttivita(SF);
             //rifferimento = list[0].RIFERIMENTO.ToString();
             rifferimento = "A-0780456970";
@@ -68,6 +71,7 @@ namespace MARCUS.Controll
             {
                 if (!Keanu.PepperYourChrome(Matrikola, psw, "https://enelcrmt.my.salesforce.com/", "", true))
                     return false;
+                UnlockAndCloseAllTabs();
                 if (CaricaCampiSearch())
                 {
                     FindLaTarifa();
@@ -93,7 +97,7 @@ namespace MARCUS.Controll
             {
                 IWebElement ElementSearch = null;
                 Thread.Sleep(1);
-                Thread.Sleep(50);
+                Thread.Sleep(700);
                 ElementSearch = Keanu.Driver.FindElement(By.Id("customerLookUp"));
                 ElementSearch.Click();
                 Thread.Sleep(1);
@@ -245,6 +249,7 @@ namespace MARCUS.Controll
                         IWebElement DocValida = Keanu.Driver.FindElement(docValidaLocator);
                         DocValida.Click();
                         GetValuesFromValidare();
+
                     }
                 }
                 catch { }
@@ -292,8 +297,9 @@ namespace MARCUS.Controll
 
             if (findshit.Count > 0)
             {
-                var findValido = findshit.FirstOrDefault(valido => valido.Text.Contains("VALIDATO"));
-                var text = findshit[0].Text;
+                var findValido = findshit.First(valido => valido.Text.Contains("VALIDATO"));
+                var text = findshit[1].Text;
+
 
                 var elements = text.Split(new string[] { "Seleziona elemento" }, StringSplitOptions.RemoveEmptyEntries);
                 List<DateTime> dates = new List<DateTime>();
@@ -319,6 +325,10 @@ namespace MARCUS.Controll
 
                                 // Store the date in the list
                                 dates.Add(date);
+                                datefromValidare = date;
+                                ChecekValidoData();
+
+
                             }
                             else
                             {
@@ -345,6 +355,19 @@ namespace MARCUS.Controll
             }
 
 
+        }
+
+        void ChecekValidoData()
+        {
+
+          if(datefromValidare <= DATAs)
+            {
+                //ok
+            }
+            else
+            {
+                //not ok, but were to send ? 
+            }
         }
 
         public bool WaitSpecificPage(string valoredaCercare, bool isNotSezioneAttiva = false)
@@ -543,6 +566,230 @@ namespace MARCUS.Controll
                     }
                 }
             }
+        }
+
+        public bool UnlockAndCloseAllTabs()
+        {
+            try
+            {
+                try
+                {
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                }
+                catch { }
+
+                List<IWebElement> modalsContainer = null;
+                try
+                {
+                    SwitchToDefaultContent();
+                    modalsContainer = Keanu.Driver.FindElements(By.XPath("//div[contains(@class, 'slds-modal__container')]")).ToList();
+                    if (modalsContainer != null)
+                    {
+                        foreach (var modalContainer in modalsContainer)
+                        {
+                            try
+                            {
+                                Thread.Sleep(Keanu.Randy(1));
+                                List<IWebElement> pulsanti = modalContainer.FindElements(By.XPath(".//button")).ToList();
+                                if (pulsanti.Count == 0)
+                                    continue;
+                                List<IWebElement> pulsantiSenzaAnnulla = pulsanti.Where(q => !q.Text.ToUpper().Contains("ANNULLA")).ToList();
+                                if (pulsanti.Count == 1 || pulsantiSenzaAnnulla.Count == 0)
+                                {
+                                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click()", pulsanti[0]);
+                                    continue;
+                                }
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click()", pulsantiSenzaAnnulla[0]);
+                            }
+                            catch
+                            {
+                                log.Info("Modale senza pulsante, può captare");
+                            }
+                        }
+                    }
+
+                    if (Keanu.Driver.PageSource.Contains("div class=\"oneAlohaPage\""))
+                    {
+                        SwitchToIframe2();
+                        modalsContainer = Keanu.Driver.FindElements(By.XPath("//div[contains(@class, 'slds-modal__container')]")).ToList();
+                        if (modalsContainer != null)
+                        {
+                            foreach (var modalContainer in modalsContainer)
+                            {
+                                try
+                                {
+                                    Thread.Sleep(Keanu.Randy(1));
+                                    List<IWebElement> pulsanti = modalContainer.FindElements(By.XPath(".//button")).ToList();
+                                    if (pulsanti.Count == 0)
+                                        continue;
+                                    List<IWebElement> pulsantiSenzaAnnulla = pulsanti.Where(q => !q.Text.ToUpper().Contains("ANNULLA")).ToList();
+                                    if (pulsanti.Count == 1 || pulsantiSenzaAnnulla.Count == 0)
+                                    {
+                                        ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click()", pulsanti[0]);
+                                        continue;
+                                    }
+                                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click()", pulsantiSenzaAnnulla[0]);
+                                }
+                                catch
+                                {
+                                    log.Info("Modale senza pulsante, può captare");
+                                }
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    log.Info("Non dovrebbero esserci modali aperte");
+                }
+
+                try
+                {
+                    WaitSpecificPage("Sblocco Tab", true);
+                }
+                catch
+                {
+                    SwitchToDefaultContent();
+                    log.Warn("WaitSpecificPage() fail");
+                    Keanu.WaitingGame();
+                }
+
+                try
+                {
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                    ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                    Thread.Sleep(500);
+                }
+                catch { }
+
+                SwitchToDefaultContent();
+
+                bool isTabAperte = false;
+
+                try
+                {
+                    log.Info("Controllo se ci sono tab aperte");
+                    //***MODIFICA 08/02/2021*** CASI NUOVI - PROFILI DIVERSI
+                    //isTabAperte = this.Driver.FindElements(By.XPath(".//div[contains(@class, 'oneGlobalNav oneConsoleNav')]//div[contains(@class, 'tabContainer')]//li[contains(@class, 'tabItem')]")).Count > 0;
+                    isTabAperte = Keanu.Driver.FindElements(By.XPath(".//div[contains(@class, 'tabContainer')]//li[contains(@class, 'tabItem')]")).Count > 0;
+                }
+                catch { }
+
+                if (!isTabAperte)
+                {
+                    log.Info("Non ci sono più tab da chiudere");
+                    return true;
+                }
+
+                IWebElement ulTabPage = null;
+                IList<IWebElement> listTabPage = null;
+                try
+                {
+                    ulTabPage = Keanu.Driver.FindElement(By.XPath("//ul[@class='tabBarItems slds-grid']"));
+                    listTabPage = ulTabPage.FindElements(By.XPath("./li"));
+                }
+                catch
+                {
+                    log.Debug("Non ci sono tab aperte");
+                    return true;
+                }
+                for (int i = 1; i < listTabPage.Count; i++)
+                {
+                    IWebElement tab = listTabPage[i];
+                    IWebElement ancorTab = tab.FindElement(By.XPath("./a"));
+                    try
+                    {
+                        ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click();", ancorTab);
+                        Thread.Sleep(1000);
+                        Keanu.Driver.SwitchTo().DefaultContent();
+                        //SwitchToDefaultContent();
+                        IWebElement ulbarra = null;
+                        try
+                        {
+                            Thread.Sleep(Keanu.Randy(1));
+                            ulbarra = Keanu.Driver.FindElement(By.XPath("//ul[@class='utilitybar slds-utility-bar']"));
+                            IWebElement OpzioneSbloccoTab = ulbarra.FindElements(By.XPath(".//li")).Where(box => box.Text.Equals("Sblocco Tab")).ToList<IWebElement>()[0];
+                            IWebElement ButtonOpzioneSbloccoTab = OpzioneSbloccoTab.FindElement(By.XPath(".//button[@class = 'bare slds-button slds-utility-bar__action slds-truncate uiButton']"));
+                            ButtonOpzioneSbloccoTab.Click();
+                            WaitSpecificPage("Sblocca/Blocca Tab", true);
+                            SwitchToDefaultContent();
+                            try
+                            {
+                                IWebElement buttonSbloccaTab = Keanu.Driver.FindElement(By.XPath("//button[text() = 'Sblocca tutti i subtabs']"));
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click();", buttonSbloccaTab);
+                                IWebElement buttonTab = Keanu.Driver.FindElement(By.XPath("//button[text() = 'Sblocca il tab in focus']"));
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("arguments[0].click();", buttonTab);
+
+                            }
+                            catch { }
+                            ButtonOpzioneSbloccoTab.Click();
+                            SwitchToDefaultContent();
+                            try
+                            {
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                                Thread.Sleep(500);
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'slds-context-bar__secondary navCenter tabBarContainer'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                                Thread.Sleep(500);
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                                Thread.Sleep(500);
+                                ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("document.querySelectorAll(\"div[class *= 'oneGlobalNav oneConsoleNav'] div[class *= 'tabContainer'] li[class *= 'tabItem'] div[class *= 'close'] button[title *= 'Chiudi']\").forEach(function(element){element.click()})");
+                                Thread.Sleep(500);
+                            }
+                            catch { }
+                        }
+                        catch
+                        {
+                            log.Error("Impossibile visualizzare la bar");
+
+                        }
+                    }
+                    catch { }
+                }
+                if (listTabPage.Count > 0)
+                {
+                    try
+                    {
+                        Thread.Sleep(Keanu.Randy(3));
+                        IWebElement DivNavigation = Keanu.Driver.FindElement(By.XPath("//div[@class = 'slds-context-bar__secondary navCenter']"));
+                        var LstButtonClose = DivNavigation.FindElements(By.XPath(".//button[@class = 'slds-button slds-button_icon-x-small slds-button_icon-container']"));
+                        if (LstButtonClose.Count == 0)
+                        {
+                            LstButtonClose = DivNavigation.FindElements(By.XPath(".//button[@class = 'slds-button slds-button_icon slds-button_icon-x-small slds-button_icon-container']"));
+                        }
+                        while (LstButtonClose.Count > 0)
+                        {
+                            foreach (IWebElement ButtonClose in LstButtonClose)
+                            {
+                                try { ButtonClose.Click(); }
+                                catch { }
+                            }
+                            LstButtonClose = DivNavigation.FindElements(By.XPath(".//button[@class = 'slds-button slds-button_icon slds-button_icon-x-small slds-button_icon-container']"));
+                        }
+                        SwitchToDefaultContent();
+                        Keanu.WaitingGame();
+                    }
+                    catch { }
+                }
+            }
+            catch (Exception Ex)
+            {
+                SwitchToDefaultContent();
+                log.Warn(Ex.ToString());
+                return false;
+            }
+            return true;
         }
 
 

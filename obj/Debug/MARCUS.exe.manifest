@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A0iFcfy77MY/5EFB97yF0Sx3pv2MFsZRrIfA1SDXjDQ=</dsig:DigestValue>
+        <dsig:DigestValue>QCCFf7oi7XRDW2XDbhmVXcgutSRGNrFQ3ozfXuqeEoE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -463,14 +463,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MARCUS.exe" size="863232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MARCUS.exe" size="867328">
       <assemblyIdentity name="MARCUS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dVt3pzd8aHva+CP9s0hqf3JNFOOoBKoMyp7FN0pkaxU=</dsig:DigestValue>
+        <dsig:DigestValue>yaq0KMSUe9IugkgYU/8bRvsLukvsUlGJqMzg0AMuXmg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
