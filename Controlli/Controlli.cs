@@ -132,6 +132,7 @@ namespace MARCUS.Controll
                                 Thread.Sleep(700);
                                 ElementSearch = Keanu.Driver.FindElement(By.Id("customerLookUp"));
                                 ElementSearch.Click();
+                                Thread.Sleep(1000);
                                 By tabLink = By.XPath("//a[@class='slds-tabs_default__link' and @data-label='Servizi e Beni']");
                                 WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
                                 wait.Until(ExpectedConditions.ElementIsVisible(tabLink));
