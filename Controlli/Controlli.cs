@@ -20,17 +20,19 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-
+using Excel = Microsoft.Office.Interop.Excel;
+using System.IO;
+using System.Reflection;
 
 namespace MARCUS.Controll
 {
     public class Controlli
     {
-
         public Controlli(Keanu keanu)
         {
             this.Keanu = keanu;
         }
+
         private static readonly ILog log = LogManager.GetLogger(typeof(Controlli));
         public SfaLib sfaLib { get; set; }
         bool sfalibarsset = false;
@@ -49,9 +51,11 @@ namespace MARCUS.Controll
         string SF = "";
         string RECORD = "";
         string CF = "";
+        public bool KO { get; set; } = false;
+        public bool OK { get; set; } = false;
+        public bool isDataProcessed = true;
 
         List<ArchivioCatastali> list = new List<ArchivioCatastali>();
-
 
         public bool Flow()
         {
@@ -64,27 +68,35 @@ namespace MARCUS.Controll
             DATAs = list[0].DATA;
             list = db.GetebanutijAttivita(SF);
             //rifferimento = list[0].RIFERIMENTO.ToString();
-            rifferimento = "A-0780456970";
-            CF = "524180996";
-            DataGet(rifferimento);
+            //rifferimento = "A-0780456970";
+            //CF = "524180996";
             try
             {
                 if (!Keanu.PepperYourChrome(Matrikola, psw, "https://enelcrmt.my.salesforce.com/", "", true))
                     return false;
-                UnlockAndCloseAllTabs();
-                if (CaricaCampiSearch())
-                {
-                    FindLaTarifa();
-                }
-                else return false;
+                GetDataAndGo();
             }
             catch (Exception)
             {
-
                 return false;
             }
+            return true;
+        }
 
-
+        public bool GetDataAndGo()
+        {
+            ReadDataFromCSV();
+            if (isDataProcessed == true)
+            {
+                DataGet(rifferimento);
+            UnlockAndCloseAllTabs();
+            if (CaricaCampiSearch())
+            {
+                FindLaTarifa();
+            }
+            else return false;
+            
+        }
             return true;
         }
 
@@ -92,41 +104,79 @@ namespace MARCUS.Controll
         {
             Keanu.Driver.Navigate().GoToUrl($"https://enelcrmt.lightning.force.com/lightning/r/wrts_prcgvr__Activity__c/{RECORD}/view");
             //WaitSpecificPage("Data Inizio");
+            try 
+            {
+                By documentoLabel = By.XPath("//label[contains(@class, 'slds-form-element__label') and contains(text(), 'Documento')]");
+                WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                wait.Until(ExpectedConditions.ElementIsVisible(documentoLabel));
+            }
+            catch { }
+            System.Threading.Thread.Sleep(4000);
+            ((IJavaScriptExecutor)Keanu.Driver).ExecuteScript("window.scrollTo(0, 0);");
 
             try
-            {
-                IWebElement ElementSearch = null;
-                Thread.Sleep(1);
-                Thread.Sleep(700);
-                ElementSearch = Keanu.Driver.FindElement(By.Id("customerLookUp"));
-                ElementSearch.Click();
-                Thread.Sleep(1);
-            }
+                {
+                    IWebElement clienteField = Keanu.Driver.FindElement(By.Id("customerLookUp"));
+                    string clienteValue = clienteField.GetAttribute("value");
+
+                    if (!string.IsNullOrEmpty(clienteValue))
+                    {
+                        IWebElement fattoElement = Keanu.Driver.FindElement(By.XPath("//option[@value='FATTO']"));
+                        string fattoValue = fattoElement.Text;
+
+                        if (fattoValue == "FATTO")
+                        {
+                            try
+                            {
+                                IWebElement ElementSearch = null;
+                                Thread.Sleep(700);
+                                ElementSearch = Keanu.Driver.FindElement(By.Id("customerLookUp"));
+                                ElementSearch.Click();
+                                By tabLink = By.XPath("//a[@class='slds-tabs_default__link' and @data-label='Servizi e Beni']");
+                                WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                                wait.Until(ExpectedConditions.ElementIsVisible(tabLink));
+                        }
+                        catch
+                            {
+                                log.Debug("Failed to Click customerinfo");
+                                CaricaCampiSearch();
+                            }
+
+                            try
+                            {
+                                IWebElement ServiciBeneTab = null;
+                                ServiciBeneTab = Keanu.Driver.FindElement(By.XPath("//*[@id='customTab3__item']"));
+                                ServiciBeneTab.Click();
+                                By pElement = By.XPath("//p[@title='Attive']");
+                                WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                                wait.Until(ExpectedConditions.ElementIsVisible(pElement));
+                        }
+                        catch
+                            {
+                                log.Debug("Failed to Click Servici E Bene tab");
+                                CaricaCampiSearch();
+
+                            }
+                        }
+                        else
+                        {
+                            KO = true;
+                            WriteDataToExcel();
+                        }
+                    }
+                    else
+                    {
+                        KO = true;
+                        WriteDataToExcel();
+                }
+                }
             catch
-            {
-                log.Debug("Failed to Click customerinfo");
-                CaricaCampiSearch();
-            }
-
-            try
-            {
-                IWebElement ServiciBeneTab = null;
-                ServiciBeneTab = Keanu.Driver.FindElement(By.XPath("//*[@id='customTab3__item']"));
-                ServiciBeneTab.Click();
-            }
-            catch
-            {
-                log.Debug("Failed to Click Servici E Bene tab");
-                CaricaCampiSearch();
-
-            }
-
+            { }
             return true;
         }
 
         public bool FindLaTarifa()
         {
-
             if (CF.Length > 0)
             {
                 try
@@ -135,15 +185,19 @@ namespace MARCUS.Controll
                     CFinsert = Keanu.Driver.FindElement(By.XPath("//input[@class='slds-input' and contains(@id, 'input-') and @name='inline-search-input']"));
                     CFinsert.SendKeys(CF);
                     IWebElement paragraph = null;
-                    paragraph = Keanu.Driver.FindElement(By.XPath("//p[contains(@class, 'slds-text-align_center') and contains(@data-aura-rendered-by, ':0')]"));
+                    paragraph = Keanu.Driver.FindElement(By.XPath("//span/a[contains(@class, 'asset-label')]")); //change xPath 175 ATT like example
                     if (paragraph != null)
                     {
                         try
                         {
                             IWebElement tarrifa = null;
-                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':') and text()='SICURA GAS RVC']"));
+                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':')]"));
                             IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)Keanu.Driver;
                             jsExecutor.ExecuteScript("arguments[0].click();", tarrifa);
+                            By spanElement = By.XPath("//span[text()='Commodity']");
+                            WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                            wait.Until(ExpectedConditions.ElementIsVisible(spanElement));
+
                             if (TestAutomationManager.DocumentiDaValidareChecked == false && Keanu.Driver.PageSource.Contains("Commodity"))
                             {
                                 if (!CommodityNextSteps())
@@ -155,7 +209,7 @@ namespace MARCUS.Controll
                         catch
                         {
                             IWebElement tarrifa = null;
-                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':') and text()='SICURA GAS RVC']"));
+                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':')]")); //GAS???
                             tarrifa.Click();
                             return false;
                         }
@@ -163,11 +217,7 @@ namespace MARCUS.Controll
                     }
                 }
                 catch
-                {
-
-                }
-
-
+                {}
             }
             return true;
         }
@@ -175,30 +225,44 @@ namespace MARCUS.Controll
         public class TestAutomationManager
         {
             public static bool DocumentiDaValidareChecked = false;
+            public static bool NoOfferta = false;
         }
 
         public bool CommodityNextSteps()
         {
             IWebElement element = Keanu.Driver.FindElement(By.XPath("//*[contains(@id, 'sectionContent-')]//div//slot//records-record-layout-row[4]//slot//records-record-layout-item[2]//div//div//dl//dd//div//span//slot[1]//force-lookup//div//records-hoverable-link"));
             element.Click();
-            Thread.Sleep(10);
+            By contrattoLabel = By.XPath("//records-entity-label[text()='Contratto']");
+            WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+            wait.Until(ExpectedConditions.ElementIsVisible(contrattoLabel));
             if (Keanu.Driver.PageSource.Contains("Correlato"))
             {
                 IWebElement detaglio = Keanu.Driver.FindElement(By.XPath("//li[@class='slds-tabs_default__item' and @data-tab-value='detailTab']//a[@id='detailTab__item']"));
                 detaglio.Click();
+                By nomeClienteLabel = By.XPath("//span[@class='test-id__field-label' and text()='Nome Cliente']");
+                WebDriverWait wait1 = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                wait.Until(ExpectedConditions.ElementIsVisible(nomeClienteLabel));
+
                 if (Keanu.Driver.PageSource.Contains("Offerta"))
                 {
                     try
                     {
                         IWebElement offertaItem = Keanu.Driver.FindElement(By.XPath("//records-record-layout-item[@field-label='Offerta']"));
-
                         // Locate child elements within the 'records-record-layout-item' with the field label 'Offerta'
                         IWebElement offertaLink = offertaItem.FindElement(By.XPath(".//force-lookup//span"));//check if not changing 
                         offertaLink.Click();
+                        By clienteLabel = By.XPath("//div[@class='test-id__field-label-container slds-form-element__label no-utility-icon']//span[@class='test-id__field-label' and text()='Cliente']");
+                        WebDriverWait wait2 = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                        wait.Until(ExpectedConditions.ElementIsVisible(clienteLabel));
+                        System.Threading.Thread.Sleep(2000);
                     }
-                    catch { }
+                    catch 
+                    {
+                        TestAutomationManager.NoOfferta = true;
+                        WriteDataToExcel();
+                    }
 
-                    if (Keanu.Driver.PageSource.Contains("SWARES"))
+                    if (Keanu.Driver.PageSource.Contains("Quote")) //changed from SWARES
                     {
                         try
                         {
@@ -208,34 +272,14 @@ namespace MARCUS.Controll
                             {
                                 int index = correlatoElements.Count - 1;
                                 correlatoElements[index].Click();
+                                System.Threading.Thread.Sleep(500);
                             }
                         }
                         catch
                         {}
                         if (Keanu.Driver.FindElements(By.XPath("//a[contains(@class, 'baseCard__header-title-container')]//span[contains(text(), 'Documenti Da Validare')]//following-sibling::span[contains(text(), '(0)')]")).Any())
                         {
-                            bool isChecked = TestAutomationManager.DocumentiDaValidareChecked;
-                            TestAutomationManager.DocumentiDaValidareChecked = true;
-                            CaricaCampiSearch();
-                            FindLaTarifa();
-                            if (Keanu.Driver.PageSource.Contains("Correlato"))
-                            {
-                                try {
-                                    IList<IWebElement> correlatoElements = Keanu.Driver.FindElements(By.XPath("//a[@id='relatedListsTab__item' and @data-tab-value='relatedListsTab']"));
-
-                                    if (correlatoElements.Count > 0)
-                                    {
-                                        int index = correlatoElements.Count - 1;
-                                        correlatoElements[index].Click();
-                                    }
-
-                                    if (Keanu.Driver.FindElements(By.XPath("//a[contains(@class, 'baseCard__header-title-container')]//span[contains(text(), 'Dati Catastali')]//following-sibling::span[contains(text(), '(0)')]")).Any())
-                                    {
-                                        int KO = 1;
-                                    }
-                                }
-                                catch { }
-                            }
+                            DataCatastali();
                         }
                         else
                         {
@@ -248,6 +292,41 @@ namespace MARCUS.Controll
             }
             return true;
         }
+
+        private void DataCatastali()
+        {
+            TestAutomationManager.DocumentiDaValidareChecked = true;
+            CaricaCampiSearch();
+            FindLaTarifa();
+
+            if (Keanu.Driver.PageSource.Contains("Correlato"))
+            {
+                try
+                {
+                    IList<IWebElement> correlatoElements = Keanu.Driver.FindElements(By.XPath("//a[@id='relatedListsTab__item' and @data-tab-value='relatedListsTab']"));
+
+                    if (correlatoElements.Count > 0)
+                    {
+                        int index = correlatoElements.Count - 1;
+                        correlatoElements[index].Click();
+                        System.Threading.Thread.Sleep(3000);
+                    }
+
+                    if (Keanu.Driver.FindElements(By.XPath("//a[contains(@class, 'baseCard__header-title-container')]//span[contains(text(), 'Dati Catastali')]//following-sibling::span[contains(text(), '(0)')]")).Any())
+                    {
+                        KO = true;
+                        WriteDataToExcel();
+                    }
+                    else
+                    {
+                        OK = true;
+                        WriteDataToExcel();
+                    }
+                }
+                catch { }
+            }
+        }
+
 
         public bool DocumentiValidare()
         {
@@ -268,18 +347,19 @@ namespace MARCUS.Controll
                         while (!IsElementVisible(docValidaLocator))
                         {
                             GoDOWN();
-                            Thread.Sleep(1000);
                         }
 
                         IWebElement DocValida = Keanu.Driver.FindElement(docValidaLocator);
                         DocValida.Click();
+                        By documentoDaValidareLabel = By.XPath("//h1[@class='slds-page-header__title listViewTitle slds-truncate' and @title='Documenti Da Validare']");
+                        WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
+                        wait.Until(ExpectedConditions.ElementIsVisible(documentoDaValidareLabel));
+                        System.Threading.Thread.Sleep(3000);
                         GetValuesFromValidare();
-
                     }
                 }
                 catch { }
             }
-
             return true;
         }
 
@@ -317,15 +397,12 @@ namespace MARCUS.Controll
             var table2 = Keanu.Driver.FindElements(By.XPath("//thead[@data-rowgroup-header]/following-sibling::tbody"));
             int indexModeloE = table.IndexOf(table.Where(q => q.Text.Contains("Modello")).First());
             List<string> mlDatiCatastaliValues = new List<string>();
-
             IList<IWebElement> findshit = table2.Where(modello => modello.Text.Contains("MODULO_DI_ADESIONE")).ToList();
 
             if (findshit.Count > 0)
             {
                 var findValido = findshit.First(valido => valido.Text.Contains("VALIDATO"));
                 var text = findshit[1].Text;
-
-
                 var elements = text.Split(new string[] { "Seleziona elemento" }, StringSplitOptions.RemoveEmptyEntries);
                 List<DateTime> dates = new List<DateTime>();
 
@@ -352,8 +429,6 @@ namespace MARCUS.Controll
                                 dates.Add(date);
                                 datefromValidare = date;
                                 ChecekValidoData();
-
-
                             }
                             else
                             {
@@ -361,37 +436,35 @@ namespace MARCUS.Controll
                                 Console.WriteLine($"Error parsing date: {dateString}");
                             }
                         }
-
                     }
-
                 }
-            
-
-
 
                 if (findValido != null)
                 {
                     var dateSpan = findValido.FindElements(By.XPath("//span[contains(@title, '00/00/0000')]"));
-
-
                     dateSpan.ToString().Trim();
-
                 }
             }
-
-
+            else
+            {
+                DataCatastali();
+            }
         }
 
         void ChecekValidoData()
         {
-
-          if(datefromValidare <= DATAs)
+            System.Threading.Thread.Sleep(3000);
+            if (datefromValidare <= DATAs)
             {
                 //ok
+                OK = true;
+                WriteDataToExcel();
             }
             else
             {
-                //not ok, but were to send ? 
+                //not ok, but were to send ?
+                KO = true;
+                WriteDataToExcel();
             }
         }
 
@@ -430,8 +503,6 @@ namespace MARCUS.Controll
             }
             return paginaCaricata;
         }
-
-
 
         public IWebElement GetSezioneAttiva()
         {
@@ -481,7 +552,7 @@ namespace MARCUS.Controll
             }
         }
 
-        public bool SwitchToDefaultContent()
+        public bool SwitchToDefaultContent() //proveritj
         {
             try
             {
@@ -519,7 +590,6 @@ namespace MARCUS.Controll
         public void DataGet(string rifferimento)
         {
             Attivita attivita = new Attivita();
-
             attivita = sfaLib.SearchAttivita(rifferimento);
 
             stato = attivita.Stato;
@@ -527,23 +597,17 @@ namespace MARCUS.Controll
 
             Attivita attivita1 = new Attivita();
             attivita1 = sfaLib.GetActivityLoadConfiguration(RECORD);
-           
-            
-
-
-
         }
         private void GoDOWN()
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)Keanu.Driver;
             js.ExecuteScript($"window.scrollBy(0,300)", "");
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
         }
 
         public bool SwitchToIframe2(string classParent = "oneAlohaPage")
         {
             WebDriverWait Wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(5));
-
             if (HasActiveSubtab())
             {
                 try
@@ -817,47 +881,91 @@ namespace MARCUS.Controll
             return true;
         }
 
+        public void WriteDataToExcel()
+        {
+            try
+            {
+                DateTime currentDate = DateTime.Today;
+                string fileName = $"ExcelOutput_{currentDate.ToString("yyyy-MM-dd")}.csv";
 
+                string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                string excelFolderPath = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
+                excelFolderPath = Path.Combine(excelFolderPath, "ExcelFiles");
+                string filePath = Path.Combine(excelFolderPath, fileName);
 
+                Directory.CreateDirectory(excelFolderPath);
 
+                if (!File.Exists(filePath))
+                {
+                    using (StreamWriter headerWriter = new StreamWriter(filePath, false))
+                    {
+                        headerWriter.WriteLine("Rifferimento;Status"); 
+                    }
+                }
 
+                using (StreamWriter writer = new StreamWriter(filePath, true))
+                {
+                    writer.WriteLine($"{rifferimento};{(TestAutomationManager.NoOfferta ? "No offerta" : (OK ? "OK" : (KO ? "KO" : "")))}");
+                }
 
+                OK = false;
+                KO = false;
+                TestAutomationManager.DocumentiDaValidareChecked = false;
+                TestAutomationManager.NoOfferta = false;
+                GetDataAndGo();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
 
+        public static int currentProcessedRow = 0;
+        public string line;
+        public void ReadDataFromCSV()
+        {
+            try
+            {
+                string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                string excelFolderPath = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
+                excelFolderPath = Path.Combine(excelFolderPath, "ExcelFiles");
+                string filePath = Path.Combine(excelFolderPath, "Data.csv");
+                Directory.CreateDirectory(excelFolderPath);
 
+                using (StreamReader reader = new StreamReader(filePath))
+                {
 
+                    for (int i = 0; i <= currentProcessedRow; i++)
+                    {
+                        reader.ReadLine();
+                    }
 
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        string[] parts = line.Split(';');
+                        if (parts.Length >= 2) 
+                        {
+                            rifferimento = parts[0].Trim();
+                            CF = parts[1].Trim();
+                            currentProcessedRow = currentProcessedRow + 1;
+                            isDataProcessed = true;
+                            return;
+                        }
+                        else
+                        {
+                            log.Warn("Invalid data format detected in the following line: " + line);
+                        }
+                    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    log.Warn("No more data to process.");
+                    isDataProcessed = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Error($"An error occurred while reading data from CSV file: {ex.Message}");
+            }
+        }
 
 
 
@@ -871,4 +979,46 @@ namespace MARCUS.Controll
         }
 
     }
+    //public class DbContext
+    //{
+    //    private const string SQL_GET_DATA = @"
+    //    SELECT 
+    //        ML.RIFERIMENTO, 
+    //        ML.NUMERO_CLIENTE, 
+    //        ML.DATA,
+    //        ML.DATA_INSERIMENTO,
+    //        LA.ID_RIFERIMENTO AS ID_RIFERIMENTO_ATT,
+    //        LA.ID_CODICE_RESO AS ID_CODICE_RESO
+    //    FROM 
+    //        [MODULI_CATASTALI].[dbo].[PROD_ARCHIVIO_CATASTALI_ML] ML
+    //    INNER JOIN 
+    //        [dbsca].[dbo].[LAVORAZIONI_AGENTE] LA ON ML.NUMERO_CLIENTE = LA.NUMERO_CLIENTE
+    //    WHERE
+    //        ML.RIFERIMENTO LIKE '%-%' AND 
+    //        LA.ID_RIFERIMENTO IS NOT NULL AND 
+    //        LA.ID_CODICE_RESO IS NOT NULL
+    //    ORDER BY 
+    //        ML.DATA_INSERIMENTO DESC;";
+
+    //    public List<ArchivioCatastali> GetData()
+    //    {
+    //        List<ArchivioCatastali> list = new List<ArchivioCatastali>();
+    //        using (SqlDataReader rdr = SQLHelper.ExecuteReader(SQLHelper.getConnStringSimpleDoc(), CommandType.Text, SQL_GET_DATA))
+    //        {
+    //            while (rdr.Read())
+    //            {
+    //                ArchivioCatastali arch = new ArchivioCatastali();
+    //                if (!rdr.IsDBNull(0)) arch.RIFERIMENTO = rdr.GetString(0);
+    //                if (!rdr.IsDBNull(1)) arch.NUMERO_CLIENTE = rdr.GetString(1);
+    //                if (!rdr.IsDBNull(2)) arch.DATA = rdr.GetDateTime(2);
+    //                if (!rdr.IsDBNull(3)) arch.DATA_INSERIMENTO = rdr.GetDateTime(3);
+    //                if (!rdr.IsDBNull(4)) arch.ID_RIFERIMENTO_ATT = rdr.GetInt32(4);
+    //                if (!rdr.IsDBNull(5)) arch.ID_CODICE_RESO = rdr.GetInt32(5);
+
+    //                list.Add(arch);
+    //            }
+    //        }
+    //        return list;
+    //    }
+    //}
 }
