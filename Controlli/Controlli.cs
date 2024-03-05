@@ -21,6 +21,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Excel;
 using System.IO;
 using System.Reflection;
 
@@ -54,9 +55,10 @@ namespace MARCUS.Controll
         public bool KO { get; set; } = false;
         public bool OK { get; set; } = false;
         public bool isDataProcessed = true;
+        public string excelFilePath = null;
 
         List<ArchivioCatastali> list = new List<ArchivioCatastali>();
-
+        
         public bool Flow()
         {
             Keanu.KillChromeWebDriver();
@@ -67,9 +69,8 @@ namespace MARCUS.Controll
             CF = list[0].NUMERO_CLIENTE.ToString();
             DATAs = list[0].DATA;
             list = db.GetebanutijAttivita(SF);
-            //rifferimento = list[0].RIFERIMENTO.ToString();
-            //rifferimento = "A-0780456970";
-            //CF = "524180996";
+            excelFilePath = SelectExcelFile();
+            
             try
             {
                 if (!Keanu.PepperYourChrome(Matrikola, psw, "https://enelcrmt.my.salesforce.com/", "", true))
@@ -85,18 +86,23 @@ namespace MARCUS.Controll
 
         public bool GetDataAndGo()
         {
-            ReadDataFromCSV();
+            ReadDataFromExcel();
             if (isDataProcessed == true)
             {
+                if (!rifferimento.StartsWith("A-"))
+                {
+                    KO = true;
+                    WriteDataToExcel();
+                }
                 DataGet(rifferimento);
-            UnlockAndCloseAllTabs();
-            if (CaricaCampiSearch())
-            {
-                FindLaTarifa();
-            }
-            else return false;
+                UnlockAndCloseAllTabs();
+                if (CaricaCampiSearch())
+                {
+                    FindLaTarifa();
+                }
+                else return false;
             
-        }
+            }
             return true;
         }
 
@@ -186,7 +192,7 @@ namespace MARCUS.Controll
                     CFinsert = Keanu.Driver.FindElement(By.XPath("//input[@class='slds-input' and contains(@id, 'input-') and @name='inline-search-input']"));
                     CFinsert.SendKeys(CF);
                     IWebElement paragraph = null;
-                    paragraph = Keanu.Driver.FindElement(By.XPath("//span/a[contains(@class, 'asset-label')]")); //change xPath 175 ATT like example
+                    paragraph = Keanu.Driver.FindElement(By.XPath("//span/a[contains(@class, 'asset-label')]")); //changed xPath 175 ATT example
                     if (paragraph != null)
                     {
                         try
@@ -210,7 +216,7 @@ namespace MARCUS.Controll
                         catch
                         {
                             IWebElement tarrifa = null;
-                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':')]")); //GAS???
+                            tarrifa = Keanu.Driver.FindElement(By.XPath("//a[contains(@class, 'asset-label') and contains(@data-aura-rendered-by, ':')]"));
                             tarrifa.Click();
                             return false;
                         }
@@ -356,7 +362,13 @@ namespace MARCUS.Controll
                         WebDriverWait wait = new WebDriverWait(Keanu.Driver, TimeSpan.FromSeconds(10));
                         wait.Until(ExpectedConditions.ElementIsVisible(documentoDaValidareLabel));
                         System.Threading.Thread.Sleep(3000);
-                        GetValuesFromValidare();
+                        if (Keanu.Driver.PageSource.Contains("ML_DatiCatastali")) { 
+                            GetValuesFromValidare();
+                        }
+                        else
+                        {
+                            DataCatastali();
+                        }
                     }
                 }
                 catch { }
@@ -398,19 +410,19 @@ namespace MARCUS.Controll
             var table2 = Keanu.Driver.FindElements(By.XPath("//thead[@data-rowgroup-header]/following-sibling::tbody"));
             int indexModeloE = table.IndexOf(table.Where(q => q.Text.Contains("Modello")).First());
             List<string> mlDatiCatastaliValues = new List<string>();
-            IList<IWebElement> findshit = table2.Where(modello => modello.Text.Contains("MODULO_DI_ADESIONE")).ToList();
+            IList<IWebElement> findshit = table2.Where(modello => modello.Text.Contains("ML_DatiCatastali")).ToList(); //MODULO_DI_ADESIONE
 
-            if (findshit.Count > 0)
+            foreach (var validareElement in findshit)
             {
-                var findValido = findshit.First(valido => valido.Text.Contains("VALIDATO"));
-                var text = findshit[1].Text;
+                var text = validareElement.Text;
                 var elements = text.Split(new string[] { "Seleziona elemento" }, StringSplitOptions.RemoveEmptyEntries);
                 List<DateTime> dates = new List<DateTime>();
 
                 foreach (var element in elements)
                 {
-                    if (element.Contains("MODULO_DI_ADESIONE") && element.Contains("VALIDATO"))
+                    if (element.Contains("ML_DatiCatastali") && element.Contains("DA VALIDARE"))
                     {
+
                         // Extract the date from the element
                         var pattern = @"\b\d{2}/\d{2}/\d{4} \d{2}\.\d{2}\b";
                         var regex = new Regex(pattern);
@@ -424,7 +436,7 @@ namespace MARCUS.Controll
                             if (DateTime.TryParseExact(dateString, "dd/MM/yyyy HH.mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime date))
                             {
                                 // Output the result
-                                Console.WriteLine($"MODULO_DI_ADESIONE with VALIDATO found on {date}");
+                                Console.WriteLine($"ML_DatiCatastali with DA VALIDARE found on {date}");
 
                                 // Store the date in the list
                                 dates.Add(date);
@@ -438,17 +450,12 @@ namespace MARCUS.Controll
                             }
                         }
                     }
+                    else if (element.Contains("ML_DatiCatastali") && element.Contains("VALIDATO"))
+                    {
+                        OK = true;
+                        WriteDataToExcel();
+                    }
                 }
-
-                if (findValido != null)
-                {
-                    var dateSpan = findValido.FindElements(By.XPath("//span[contains(@title, '00/00/0000')]"));
-                    dateSpan.ToString().Trim();
-                }
-            }
-            else
-            {
-                DataCatastali();
             }
         }
 
@@ -887,7 +894,7 @@ namespace MARCUS.Controll
             try
             {
                 DateTime currentDate = DateTime.Today;
-                string fileName = $"ExcelOutput_{currentDate.ToString("yyyy-MM-dd")}.csv";
+                string fileName = $"ExcelOutput_{currentDate.ToString("yyyy-MM-dd")}.xlsx";
 
                 string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
                 string excelFolderPath = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
@@ -896,18 +903,34 @@ namespace MARCUS.Controll
 
                 Directory.CreateDirectory(excelFolderPath);
 
-                if (!File.Exists(filePath))
+                Application excelApp = new Application();
+                Workbook workbook;
+
+                if (File.Exists(filePath))
                 {
-                    using (StreamWriter headerWriter = new StreamWriter(filePath, false))
-                    {
-                        headerWriter.WriteLine("Rifferimento;Status"); 
-                    }
+                    workbook = excelApp.Workbooks.Open(filePath);
+                }
+                else
+                {
+                    workbook = excelApp.Workbooks.Add();
+                    workbook.SaveAs(filePath);
                 }
 
-                using (StreamWriter writer = new StreamWriter(filePath, true))
+                Worksheet worksheet = (Worksheet)workbook.Sheets[1];
+                int lastRow = worksheet.Cells.SpecialCells(XlCellType.xlCellTypeLastCell).Row;
+
+                if (lastRow == 1)
                 {
-                    writer.WriteLine($"{rifferimento};{(TestAutomationManager.NoOfferta ? "No offerta" : (OK ? "OK" : (KO ? "KO" : "")))}");
+                    worksheet.Cells[1, 1] = "Rifferimento";
+                    worksheet.Cells[1, 2] = "Status";
                 }
+
+                worksheet.Cells[lastRow + 1, 1] = rifferimento;
+                worksheet.Cells[lastRow + 1, 2] = (TestAutomationManager.NoOfferta ? "No offerta" : (OK ? "OK" : (KO ? "KO" : "")));
+
+                workbook.Save();
+                workbook.Close();
+                excelApp.Quit();
 
                 OK = false;
                 KO = false;
@@ -923,54 +946,96 @@ namespace MARCUS.Controll
 
         public static int currentProcessedRow = 0;
         public string line;
-        public void ReadDataFromCSV()
+        public bool ReadDataFromExcel()
         {
             try
             {
-                string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                string excelFolderPath = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
-                excelFolderPath = Path.Combine(excelFolderPath, "ExcelFiles");
-                string filePath = Path.Combine(excelFolderPath, "Data.csv");
-                Directory.CreateDirectory(excelFolderPath);
-
-                using (StreamReader reader = new StreamReader(filePath))
+                if (string.IsNullOrEmpty(excelFilePath))
                 {
+                    log.Warn("No file selected.");
+                    return false;
+                }
 
-                    for (int i = 0; i <= currentProcessedRow; i++)
+                Application excelApp = new Application();
+                Workbook workbook = excelApp.Workbooks.Open(excelFilePath);
+                Worksheet worksheet = (Worksheet)workbook.Sheets[1];
+
+                int rowCount = worksheet.UsedRange.Rows.Count;
+                bool headerProcessed = false;
+
+                for (int i = currentProcessedRow + 1; i <= rowCount; i++)
+                {
+                    Range row = (Range)worksheet.Rows[i];
+                    object rifferimentoValue = ((Range)row.Cells[1, 1]).Value;
+                    object CFValue = ((Range)row.Cells[1, 2]).Value;
+
+                    if (!headerProcessed)
                     {
-                        reader.ReadLine();
+                        headerProcessed = true;
+                        continue;
                     }
 
-                    while ((line = reader.ReadLine()) != null)
+                    if (rifferimentoValue != null && CFValue != null)
                     {
-                        string[] parts = line.Split(';');
-                        if (parts.Length >= 2) 
-                        {
-                            rifferimento = parts[0].Trim();
-                            CF = parts[1].Trim();
-                            currentProcessedRow = currentProcessedRow + 1;
-                            isDataProcessed = true;
-                            return;
-                        }
-                        else
-                        {
-                            log.Warn("Invalid data format detected in the following line: " + line);
-                        }
-                    }
+                        string rifferimento = rifferimentoValue.ToString();
+                        string CF = CFValue.ToString();
 
-                    log.Warn("No more data to process.");
-                    isDataProcessed = false;
+                        this.rifferimento = rifferimento.Trim();
+                        this.CF = CF.Trim();
+                        currentProcessedRow++;
+                        isDataProcessed = true;
+                        workbook.Close(false);
+                        excelApp.Quit();
+                        return true;
+                    }
+                    else
+                    {
+                        log.Warn("Invalid data format detected in row: " + i);
+                    }
+                }
+
+                log.Warn("No more data to process.");
+                isDataProcessed = false;
+                workbook.Close(false);
+                excelApp.Quit();
+            }
+            catch (Exception ex)
+            {
+                log.Error($"An error occurred while reading data from Excel file: {ex.Message}");
+            }
+
+            return false;
+        }
+
+        public string SelectExcelFile()
+        {
+            try
+            {
+                Microsoft.Win32.OpenFileDialog ofd = new Microsoft.Win32.OpenFileDialog();
+                ofd.DefaultExt = ".xlsx";
+                ofd.Filter = "Excel Workbook|*.xlsx|Excel 97-2003 Workbook|*.xls";
+                bool? result = ofd.ShowDialog();
+
+                if (result == true)
+                {
+                    return ofd.FileName;
+                }
+                else
+                {
+                    log.Warn("No file selected.");
+                    return null;
                 }
             }
             catch (Exception ex)
             {
-                log.Error($"An error occurred while reading data from CSV file: {ex.Message}");
+                log.Error($"An error occurred while selecting Excel file: {ex.Message}");
+                return null;
             }
         }
 
 
 
-        private bool PepperYourSfaLib()
+    private bool PepperYourSfaLib()
         {
             sfaLib = new SfaLib(Matrikola, psw);
             bool marc = sfaLib.LoginProd();

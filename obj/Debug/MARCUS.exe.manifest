@@ -463,14 +463,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MARCUS.exe" size="872960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MARCUS.exe" size="875008">
       <assemblyIdentity name="MARCUS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gQE3GlCHefApxroPcIr5+RYoddASC9GTrnEqSjJ2qAA=</dsig:DigestValue>
+        <dsig:DigestValue>t938SyvCvQFdNYFnL4XEmIBU1bjW3vW9agFH3+vpT6U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
