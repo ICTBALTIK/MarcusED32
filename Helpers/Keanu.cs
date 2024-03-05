@@ -256,7 +256,7 @@ namespace MARCUS.Helpers
                 ds.HideCommandPromptWindow = false;
                 var options = new ChromeOptions();
 
-               //options.AddArguments($"load-extension={d}");
+                options.AddArguments($"load-extension={d}");
                 options.AddArgument("--start-maximized");
                 options.AddArgument("--disable-notifications");
                 /*options.AddUserProfilePreference("download.default_directory", c);
