@@ -262,7 +262,8 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Controlli\ArchivioCatastali.cs" />
-    <Compile Include="Controlli\Controlli.cs" />
+    <Compile Include="Controlli\ControliED32.cs" />
+    <Compile Include="Controlli\Controller.cs" />
     <Compile Include="Controlli\DbContext.cs" />
     <Compile Include="Error.xaml.cs">
       <DependentUpon>Error.xaml</DependentUpon>

@@ -1480,5 +1480,38 @@ namespace MARCUS.Helpers
             t.Start();
             t.Join();
         }
+
+        public bool PapperYourED32(string username, string password, string webadress)
+        {
+            try
+            {
+                var ds = ChromeDriverService.CreateDefaultService();
+                ds.HideCommandPromptWindow = false;
+                var options = new ChromeOptions();
+                options.AddArgument("--disable-notifications");
+                //options.AddArgument("--incognito");
+                options.AddArgument("--disable-infobars");
+                options.AddArgument("--start-maximized");
+                Driver = new ChromeDriver(ds, options);
+                Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+                Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(120);
+                Driver.Navigate().GoToUrl($"http://{username}:{password}@{webadress}/");
+
+                var allWindowHandles = Driver.WindowHandles;
+                if (allWindowHandles.Count >= 2)
+                {
+                    string secondWindowHandle = allWindowHandles[allWindowHandles.Count - 2];
+                    Driver.SwitchTo().Window(secondWindowHandle);
+                    Driver.Close();
+                }
+
+                string thirdWindowHandle = Driver.WindowHandles.Last();
+                Driver.SwitchTo().Window(thirdWindowHandle);
+                return true;
+
+            }
+            catch (Exception ex) { return false; }
+        }
+
     }
 }

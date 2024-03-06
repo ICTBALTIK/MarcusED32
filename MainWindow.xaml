@@ -85,6 +85,7 @@
                     <ComboBoxItem IsEnabled="False" Visibility="Collapsed">EE62 - INSERIMENTO DIMPAG IN SAP</ComboBoxItem>
                     <ComboBoxItem IsEnabled="True">ED32 - SIFITES</ComboBoxItem>
                     <ComboBoxItem IsEnabled="True">CONTROLIER</ComboBoxItem>
+                    <ComboBoxItem IsEnabled="True">ED32 - CONTROLLER</ComboBoxItem>
                     <Separator Background="Wheat" Height="0.1" Margin="0"/>
                     <ComboBoxItem IsEnabled="True">EE145 - INSERIMENTO FASE 1</ComboBoxItem>
                     <ComboBoxItem IsEnabled="True">EE145 - INSERIMENTO FASE 2</ComboBoxItem>

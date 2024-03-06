@@ -27,14 +27,14 @@ using System.Reflection;
 
 namespace MARCUS.Controll
 {
-    public class Controlli
+    public class Controller
     {
-        public Controlli(Keanu keanu)
+        public Controller(Keanu keanu)
         {
             this.Keanu = keanu;
         }
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(Controlli));
+        private static readonly ILog log = LogManager.GetLogger(typeof(Controller));
         public SfaLib sfaLib { get; set; }
         bool sfalibarsset = false;
         public bool Iframe { get; set; }

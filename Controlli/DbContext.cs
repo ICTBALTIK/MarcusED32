@@ -82,6 +82,48 @@ namespace Controlli_ee145
             return list;
 
         }
+
+        public string SearchInDB(string riferimento, string fieldName)
+        {
+
+            string fieldValue = "";
+            string columnName = "";
+
+            // Устанавливаем имя столбца в зависимости от переданного параметра
+            switch (fieldName)
+            {
+                case "fattura":
+                    columnName = "FATTURA";
+                    break;
+                case "importo":
+                    columnName = "IMPORTO";
+                    break;
+                case "eneltel":
+                    columnName = "ENELTEL";
+                    break;
+                default:
+                    throw new ArgumentException("Неподдерживаемое имя поля", nameof(fieldName));
+            }
+            using (SqlConnection con = new SqlConnection(@"Data Source=172.23.0.43; Persist Security Info=True; Initial Catalog=DBSCA;User ID=macro1;Password=Macro2012"))
+            {
+                con.Open();
+                using (SqlCommand cmd = con.CreateCommand())
+                {
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = $"SELECT {columnName} FROM [DBSCA].[dbo].[DATI_ED32] WHERE ID_DOCUMENTO = @Riferimento";
+                    cmd.Parameters.AddWithValue("@Riferimento", riferimento);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            fieldValue = reader[columnName].ToString();
+                        }
+                    }
+                }
+            }
+            return fieldValue;
+        }
     }
 
 }

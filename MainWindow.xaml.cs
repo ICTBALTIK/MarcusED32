@@ -2,6 +2,7 @@
 using log4net.Appender;
 using MahApps.Metro.Controls;
 using MARCUS.Controll;
+using MARCUS.Controlli;
 using MARCUS.Helpers;
 using MARCUS.Marcosi;
 using NetworkCommsDotNet;
@@ -433,12 +434,22 @@ namespace MARCUS
             }
             else if (Keanu.LavName.StartsWith("CONTROLIER"))
             {
-                Controlli Controll = new Controlli(Keanu);
+                Controller Controll = new Controller(Keanu);
                 if (Controll.Flow())
                 {
                     return;
                 }
                 //Keanu.DeskeyAutoFilterExport();
+            }
+
+            else if (Keanu.LavName.StartsWith("ED32 - CONTROLLER"))
+            {
+
+                ControliED32 Controll = new ControliED32(Keanu);
+                if (Controll.Flow())
+                {
+                    return;
+                }
             }
 
 
