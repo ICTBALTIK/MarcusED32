@@ -58,6 +58,8 @@ namespace MARCUS.Helpers
         public string PassR2D { get; set; }
         public string LoginSII { get; set; }
         public string PassSII { get; set; }
+        public string LoginEGC { get; set; }
+        public string PassEGC { get; set; }
         public string LavName { get; set; }
         public string SospendiTipo { get; set; }
         public int LavLoginId { get; set; }

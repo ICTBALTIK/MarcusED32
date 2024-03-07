@@ -76,6 +76,12 @@
                         <PasswordBox x:Name="passSII" Password="" BorderThickness="0"/>
                     </StackPanel>
                 </GroupBox>
+                <GroupBox x:Name="EGCGroupb" Foreground="Wheat" Header="EGC" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <TextBox x:Name="loginEGC" Text="" BorderThickness="0"/>
+                        <PasswordBox x:Name="passEGC" Password="" BorderThickness="0"/>
+                    </StackPanel>
+                </GroupBox>
             </StackPanel>
             <Label x:Name="VersionLabel" VerticalAlignment="Bottom" Grid.RowSpan="3" Opacity="0.3" Content="" />
         </Grid>

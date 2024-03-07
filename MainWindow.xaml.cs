@@ -126,7 +126,7 @@ namespace MARCUS
             "AF71062",
             "AF71063"     
         };//Baltik2023--- Dominio$000001
-        private readonly string defaultPass = "Baltik2024///";//+PDF.cs
+        private readonly string defaultPass = "Baltik2024***";//+PDF.cs
         private readonly string defaultPass1 = "Dominio$000001";//temp psw
         private readonly string defaultPassCQP = "Smart212023/";
 
@@ -793,6 +793,8 @@ namespace MARCUS
             Keanu.PassR2D = passR2D.Password;
             Keanu.LoginSII = loginSII.Text;
             Keanu.PassSII = passSII.Password;
+            Keanu.LoginEGC = loginEGC.Text + "@ENELINT.GLOBAL";
+            Keanu.PassEGC = passEGC.Password;
             Keanu.From = "1350";
             Keanu.To = "2255";
             Keanu.SospendiTipo = CmbTipo.Text;
@@ -1252,6 +1254,12 @@ namespace MARCUS
 
                 loginSFA.Text = defaultloginsmartbotBaltik20;
                 passSFA.Password = defaultPass1;
+            }
+            else if (CmbLavorazioni.Text.ToString().StartsWith("ED32 - CONTROLLER"))
+            {
+                EGCGroupb.Visibility = Visibility.Visible;
+
+                passEGC.Password = defaultPass;
             }
 
             Credentials();

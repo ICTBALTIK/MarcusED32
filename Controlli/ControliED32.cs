@@ -19,6 +19,8 @@ namespace MARCUS.Controlli
 {
     public class ControliED32
     {
+        string clienteName = "";
+        string descbankanote = "";
         string fatformatNumber = "";
         string impformatNumber = "";
         public string matr = "A490848@enelint.global";
@@ -36,7 +38,7 @@ namespace MARCUS.Controlli
         {
             DbContext db = new DbContext();
 
-            Keanu.PapperYourED32(matr, password, webadress);
+            Keanu.PapperYourED32(Keanu.LoginEGC, Keanu.PassEGC, webadress);
 
             Keanu.Driver.Navigate().GoToUrl("https://egc-prod.awselb.enelint.global/egc/GestAccrediti/RicAccrediti.jsp");
 
@@ -68,6 +70,7 @@ namespace MARCUS.Controlli
                 IWebElement descrmovbanca = Keanu.Driver.FindElement(By.XPath("/html/body/center/center/table[1]/tbody/tr[13]/td[3]/table"));
 
                 string descr = descrmovbanca.Text;
+                descbankanote = descrmovbanca.Text;
                 string pattern = @"BOLLETTA (\d+)";
                 Match match = Regex.Match(descr, pattern);
 
@@ -158,7 +161,7 @@ namespace MARCUS.Controlli
                                 IWebElement tbody = FindTablo.FindElement(By.TagName("tbody"));
                                 foreach (IWebElement row in tbody.FindElements(By.TagName("td")))
                                 {
-                                   if (tbody.Text.Contains("Attivo"))
+                                   if (tbody.Text.Contains("Cessato"))
                                     {
                                         string rowText = tbody.Text;
                                         var lines = rowText.Split('\n', (char)StringSplitOptions.RemoveEmptyEntries);
@@ -168,9 +171,9 @@ namespace MARCUS.Controlli
                                             {
                                                 var cells = lines[i].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
 
-                                                if (cells.Contains("Attivo"))
+                                                if (cells.Contains("Cessato"))
                                                 {
-                                                    int cessatoIndex = Array.IndexOf(cells, "Attivo");
+                                                    int cessatoIndex = Array.IndexOf(cells, "Cessato");
 
                                                     if (cessatoIndex > 0)
                                                     {
@@ -193,10 +196,7 @@ namespace MARCUS.Controlli
 
                                     
                                 }
-                               void  RicherckaFatuura(string vol)
-                                {
-
-                                }
+                               
 
 
                                 if (FindTablo.Text.Contains("Attivo"))
@@ -235,7 +235,7 @@ namespace MARCUS.Controlli
                 else { Console.WriteLine("KO"); }
 
 
-                try //riecerca
+                /*try //riecerca
                 {
                     IWebElement ricercabutton = Keanu.Driver.FindElement(By.XPath("//*[@id=\"ricercagood\"]/a"));
                     ricercabutton.Click();
@@ -247,7 +247,7 @@ namespace MARCUS.Controlli
                     lupa.Click();
                 }
                 catch { }
-
+                */
 
             }
             else { Console.WriteLine("KO"); }
@@ -266,6 +266,9 @@ namespace MARCUS.Controlli
                     string descr = descrmovbanca.Text;
                     if (descr.Contains(importoValue))
                     {
+                        RicherckaFatuura(fatturaValue);
+
+
                         return true;
                     }
                 }
@@ -278,8 +281,74 @@ namespace MARCUS.Controlli
         }
 
 
+        void RicherckaFatuura(string vol)
+        {
+            /*   IWebElement RicercaClienti = Keanu.Driver.FindElement(By.Id("oCMenu_top8"));
+               RicercaClienti.Click();
+               IWebElement RicercaClientitwo = Keanu.Driver.FindElement(By.Id("oCMenu_3"));
+               RicercaClientitwo.Click();*/
+            Keanu.Driver.Navigate().GoToUrl("https://egc-prod.awselb.enelint.global/egc/GestCrediti/RicCrediti.jsp");
+            IWebElement RicercaClienti = Keanu.Driver.FindElement(By.XPath("/html/body/center/form/table[1]/tbody/tr[3]/td/table/tbody/tr[1]/td[3]/input"));
+            RicercaClienti.SendKeys(vol);
+            IWebElement checkbox = Keanu.Driver.FindElement(By.XPath("/html/body/center/form/table[1]/tbody/tr[3]/td/table/tbody/tr[4]/td[5]/table/tbody/tr/td[4]/input"));
+            checkbox.Click();
+            if(fatformatNumber.Length == 0)
+            {
+                IWebElement subdivison = Keanu.Driver.FindElement(By.XPath("/html/body/center/form/table[1]/tbody/tr[3]/td/table/tbody/tr[1]/td[4]/select"));
+                subdivison.Click();
+                IWebElement suddivios0 = Keanu.Driver.FindElement(By.XPath("/html/body/center/form/table[1]/tbody/tr[3]/td/table/tbody/tr[1]/td[4]/select/option[2]"));
+                suddivios0.Click();
+            }
+            IWebElement conferma = Keanu.Driver.FindElement(By.Id("ButtonConferma"));
+            conferma.Click();
+            RicercaFatturaTable(impformatNumber);
+
+        }
+
+
+        void RicercaFatturaTable(string imp)
+        {
+            IWebElement tablinskis = Keanu.Driver.FindElement(By.XPath("/html/body/center/table[3]/tbody/tr/td[2]/form[1]/table"));
+            if(tablinskis.Text.Contains(imp))
+            {
+                log.Debug("ir");
+            }
+            findClienteName();
+
+            void findClienteName()
+            {
+
+
+                string pattern = @"OR1(\d+)";
+
+                Match match = Regex.Match(descbankanote, pattern);
+
+                if (match.Success)
+                {
+                    string cliente = match.Groups[1].Value;
+                    clienteName = cliente;
+
+                    Console.WriteLine("Number is found: " + fatformatNumber);
+
+
+                }
+                else
+                {
+                    Console.WriteLine("Number after 'BOLLETTA' not Found.");
+                }
+
+                IWebElement suddivisonCliente = Keanu.Driver.FindElement(By.XPath("/html/body/center/table[1]/tbody/tr[1]/td[5]"));
+               string clientecheckone = suddivisonCliente.Text.Remove(012);
+                if (clientecheckone == clienteName)
+                {
+                    log.Debug("ir");
+                }
+
+            }
+        }
     }
+ }
 
 
 
-}
+
