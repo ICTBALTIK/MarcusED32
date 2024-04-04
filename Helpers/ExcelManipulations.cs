@@ -50,7 +50,7 @@ namespace MARCUS.Helpers
                 return false;
             }
         }
-
+        
         public bool ExportExcelSFAgente(List<Records.SfaChekah> list, string filename)
         {
             try
@@ -99,6 +99,49 @@ namespace MARCUS.Helpers
             catch
             {
                 log.Error($"{filename} fail");
+                return false;
+            }
+        }
+
+        public bool ExportExcelEGC(List<Controlli.ArchivioEgc> list)
+        {
+            try
+            {
+                //string datt = $"'{DateTime.Now.AddDays(-3):dd/MM/yyyy}";
+                string filename = "RESULTATI";
+                string user = Environment.UserName.ToUpper();
+                string path = $"C:\\Users\\{user}\\Desktop\\EGCRESULTS\\";
+                if (!Directory.Exists(path))
+                    Directory.CreateDirectory(path);
+                Microsoft.Office.Interop.Excel.Application Excel = new Microsoft.Office.Interop.Excel.Application();
+                Workbook workbook = Excel.Workbooks.Add(System.Reflection.Missing.Value);
+                Worksheet Sheet1 = (Worksheet)workbook.Sheets[1];
+                Sheet1.Columns.AutoFit();
+                if (list != null)
+                {
+                    Sheet1.Cells[1, 1] = "ATTIVITÀ";
+                    Sheet1.Cells[1, 2] = "STATO";
+                    Sheet1.Cells[1, 3] = "KOMENTAR";
+                    int row = 2;
+                    foreach (var item in list)
+                    {
+                        Sheet1.Cells[row, 1] = item.Attivita;
+                        Sheet1.Cells[row, 2] = item.STATOS;
+                        Sheet1.Cells[row, 3] = item.KOMENT;
+                        row++;
+                    }
+                }
+                workbook.SaveAs($"{path}{filename}.xlsx");
+                workbook.Close(0);
+                Excel.Quit();
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(Excel);
+                //Excel.Visible = true;
+                log.Debug($"{path}{filename}.xlsx");
+                return true;
+            }
+            catch
+            {
+                log.Error($"fail");
                 return false;
             }
         }
@@ -174,6 +217,58 @@ namespace MARCUS.Helpers
                         }
                         if (vallie.Contains("A-"))
                             list.Add(vallie.Trim());
+                    }
+                    workbook.Close(0);
+                    Excel.Quit();
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(Excel);
+                }
+                else
+                {
+                    log.Error($"Fail");
+                    list = null;
+                }
+                return true;
+            }
+            catch
+            {
+                log.Error($"Fail");
+                list = null;
+                return false;
+            }
+        }
+
+        public bool ImportExcelEGC(out List<string> list)
+        {
+            try
+            {
+                Microsoft.Win32.OpenFileDialog ofd = new Microsoft.Win32.OpenFileDialog();
+                ofd.DefaultExt = ".xlsx";
+                ofd.Filter = "Excel Workbook|*.xlsx|Excel 97-2003 Workbook|*.xls";
+                var sel = ofd.ShowDialog();
+                if (sel == true)
+                {
+                    string fileName = ofd.FileName;
+                    Microsoft.Office.Interop.Excel.Application Excel = new Microsoft.Office.Interop.Excel.Application();
+                    Workbook workbook = Excel.Workbooks.Open(fileName, Type.Missing, true);
+                    Worksheet Sheet1 = (Worksheet)workbook.Sheets[1];
+                    Range range = Sheet1.UsedRange;
+                    range.Parse(ToString());
+                    list = new List<string>();
+                    foreach (Range item in range.Rows.Cells)
+                    {
+                        string vallie = null;
+                        try
+                        {
+                            
+                            vallie = item.Value.ToString();
+                            list.Add(vallie);
+                            if (string.IsNullOrEmpty(vallie))
+                                continue;
+                        }
+                        catch (Exception)
+                        {
+                            continue;
+                        }
                     }
                     workbook.Close(0);
                     Excel.Quit();

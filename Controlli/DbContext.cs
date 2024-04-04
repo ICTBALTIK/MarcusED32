@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MARCUS.Controlli;
 using SFALibrary.Helpers;
 
 namespace Controlli_ee145
@@ -123,6 +124,28 @@ namespace Controlli_ee145
                 }
             }
             return fieldValue;
+        }
+
+        private const string SQL_GET_ATTT_LOCAL5 = "SELECT [ID_RIFERIMENTO] FROM [dbsca].[dbo].[LAVORAZIONI_AGENTE] WHERE [ID_CODICE_RESO] = '37196' AND CONVERT(date, END_DATE) BETWEEN @ID_RIFERIMENTO AND @ID_RIFERIMENTO2 ORDER BY ID DESC";
+        public List<ArchivioEgc> GetebanutijAttivita4(string riffer4, string riffer5)
+        {
+            List<ArchivioEgc> list = new List<ArchivioEgc>();
+            using (SqlDataReader rdr = SQLHelper.ExecuteReader(SQLHelper.getConnStringJusteam(), CommandType.Text, SQL_GET_ATTT_LOCAL5,
+                new SqlParameter("@ID_RIFERIMENTO", riffer4),
+                new SqlParameter("@ID_RIFERIMENTO2", riffer5)))
+            {
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+                        ArchivioEgc arch = new ArchivioEgc();
+                        if (!rdr.IsDBNull(0))
+                            arch.Attivita = rdr.GetString(0).Trim();
+                        list.Add(arch);
+                    }
+                }
+            }
+            return list;
         }
     }
 

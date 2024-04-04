@@ -82,6 +82,39 @@
                         <PasswordBox x:Name="passEGC" Password="" BorderThickness="0"/>
                     </StackPanel>
                 </GroupBox>
+                <GroupBox x:Name="Controller" Foreground="Wheat" Header="Control" BorderThickness="1" Visibility="Collapsed">
+                    <StackPanel>
+                        <Controls:ToggleSwitch x:Name="chkExcel" Header="Excel" Margin="5"/>
+                        <Controls:DateTimePicker x:Name="txtDateFROM" Controls:TextBoxHelper.Watermark="DA DATA"  HorizontalAlignment="Left" Culture="en-IN" SelectedDate="{Binding Path=txtDateFROM, StringFormat='dd/MM/yyy'}">
+                            <Controls:DateTimePicker.Style>
+                                <Style TargetType="Controls:DateTimePicker">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ElementName=chkExcel, Path=IsChecked}" Value="True">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ElementName=chkExcel, Path=IsChecked}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Controls:DateTimePicker.Style>
+                        </Controls:DateTimePicker>
+                        <Controls:DateTimePicker x:Name="txtDateTO" Controls:TextBoxHelper.Watermark="A DATA"  HorizontalAlignment="Left" Culture="en-IN" SelectedDate="{Binding Path=txtDateTO, StringFormat='dd/MM/yyy'}">
+                            <Controls:DateTimePicker.Style>
+                                <Style TargetType="Controls:DateTimePicker">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ElementName=chkExcel, Path=IsChecked}" Value="True">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ElementName=chkExcel, Path=IsChecked}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Controls:DateTimePicker.Style>
+                        </Controls:DateTimePicker>
+                    </StackPanel>
+                </GroupBox>
             </StackPanel>
             <Label x:Name="VersionLabel" VerticalAlignment="Bottom" Grid.RowSpan="3" Opacity="0.3" Content="" />
         </Grid>

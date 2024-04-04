@@ -446,6 +446,60 @@ namespace MARCUS
             {
 
                 ControliED32 Controll = new ControliED32(Keanu);
+                DateTime? fromDate = null;
+                DateTime? toDate = null;
+
+                txtDateFROM.Dispatcher.Invoke(() =>
+                {
+                    fromDate = txtDateFROM.SelectedDate;
+                });
+
+                txtDateTO.Dispatcher.Invoke(() =>
+                {
+                    toDate = txtDateTO.SelectedDate;
+                });
+
+                Keanu.fromDateK = fromDate;
+                Keanu.toDateK = toDate;
+                Keanu.Excel145 = false;
+
+                if (Keanu.Excel145 == false)
+                {
+                    if (fromDate.HasValue && toDate.HasValue)
+                    {
+                        if (fromDate.Value.Date > DateTime.Today || toDate.Value.Date > DateTime.Today)
+                        {
+                            log.Error("The date must be less than today's");
+                        }
+                        else
+                        {
+                            if (fromDate.Value.Date <= toDate.Value.Date)
+                            {
+                                if (Controll.Flow())
+                                {
+                                    return;
+                                }
+                                //Keanu.DeskeyAutoFilterExport();
+                            }
+                            else
+                            {
+                                log.Error("The first date must be less than the second");
+                            }
+                        }
+                    }
+                    else
+                    {
+                        log.Error("Select data");
+                    }
+                }
+                else
+                {
+                    if (Controll.Flow())
+                    {
+                        return;
+                    }
+                }
+
                 if (Controll.Flow())
                 {
                     return;
@@ -1260,6 +1314,7 @@ namespace MARCUS
                 EGCGroupb.Visibility = Visibility.Visible;
 
                 passEGC.Password = defaultPass;
+                Controller.Visibility = Visibility.Visible;
             }
 
             Credentials();

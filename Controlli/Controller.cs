@@ -27,6 +27,7 @@ using System.Reflection;
 
 namespace MARCUS.Controll
 {
+
     public class Controller
     {
         public Controller(Keanu keanu)
@@ -61,6 +62,7 @@ namespace MARCUS.Controll
         
         public bool Flow()
         {
+            // documento = (Documento)sfaLib.GetRecord(att.DocumentRecordId, SFALibrary.Helpers.Utility.RicercaDocumentoName);  Attivita att = new Attivita();  att = sfaLib.SearchAttivita(v.Attivita, true); OfferteItemName OfferteApiName from utility
             Keanu.KillChromeWebDriver();
             PepperYourSfaLib();
             DbContext db = new DbContext();

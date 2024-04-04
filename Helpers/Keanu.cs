@@ -82,6 +82,9 @@ namespace MARCUS.Helpers
         public string IdAttivitaPerScodamento { get; set; }
         public bool ModificaPodTrip { get; set; }
         public bool SfaCheckerPlusAgente { get; set; }
+        public DateTime? fromDateK { get; set; }
+        public DateTime? toDateK { get; set; }
+        public bool Excel145 { get; set; }
 
         public int sfaTimeout = 5;
         public int nextTimeout = 3;
@@ -257,21 +260,16 @@ namespace MARCUS.Helpers
                 var ds = ChromeDriverService.CreateDefaultService();
                 ds.HideCommandPromptWindow = false;
                 var options = new ChromeOptions();
-
-                options.AddArguments($"load-extension={d}");
-                options.AddArgument("--start-maximized");
-                options.AddArgument("--disable-notifications");
-                /*options.AddUserProfilePreference("download.default_directory", c);
+                options.AddUserProfilePreference("download.default_directory", c);
                 options.AddUserProfilePreference("download.prompt_for_download", false);
                 options.AddUserProfilePreference("download.directory_upgrade", true);
-                options.AddUserProfilePreference("safebrowsing.enabled", true);
-                options.AddUserProfilePreference("safebrowsing", "enabled");
                 options.AddArguments($"load-extension={d}");
                 options.AddArgument("--no-sandbox");
-                options.AddArgument("--safebrowsing-disable-download-protection");
                 options.AddArgument("--start-maximized");
                 options.AddArgument("--disable-notifications");
-                options.AddArgument("--log-level=3");*/
+                options.AddArgument("--log-level=3");
+                options.AddArgument("--ignore-certificate-errors");
+                options.AddArgument("--disable-web-security");
                 Driver = new ChromeDriver(ds, options);
                 Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
                 Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(120);
@@ -794,7 +792,8 @@ namespace MARCUS.Helpers
                 //            Thread.Sleep(Randy(6));
                 //            privateKey = Agente.getOtp(username);
                 //            log.Warn($"privateKey: {privateKey}");
-                //            if (string.IsNullOrEmpty(privateKey)) { throw new Exception("Nessuna chiave privata recuperata da DB"); }
+                //            if (string.IsNullOrEmpty(privateKey)) { throw new Exception("Nessuna
+                //            privata recuperata da DB"); }
                 //            otpKeyBytes = Base32Encoding.ToBytes(privateKey);
                 //            totp = new Totp(otpKeyBytes);
                 //            twoFactorCode = totp.ComputeTotp();
@@ -1495,8 +1494,8 @@ namespace MARCUS.Helpers
                 options.AddArgument("--disable-infobars");
                 options.AddArgument("--start-maximized");
                 Driver = new ChromeDriver(ds, options);
-                Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
-                Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(120);
+                Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(200);
+                Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(200);
                 Driver.Navigate().GoToUrl($"http://{username}:{password}@{webadress}/");
 
                 var allWindowHandles = Driver.WindowHandles;
